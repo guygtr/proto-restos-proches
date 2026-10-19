@@ -1,0 +1,83 @@
+{
+  "mise_a_jour": "2026-10-18",
+  "restos": [
+    {
+      "nom": "Le Relais des Florent",
+      "note": "Bistro québécois sur le terrain de la Famille Migneron. Plats 40-45 $, truite au bleu. Le soir, du mercredi au samedi.",
+      "adresse": "100, chemin du Migneron, G3Z 0L3",
+      "ville": "Baie-Saint-Paul",
+      "lat": 47.5032922,
+      "lng": -70.5209785,
+      "site": "https://relaisdesflorent.com/",
+      "source_adresse": "Site officiel relaisdesflorent.com (section Contact); aussi tourisme-charlevoix.com",
+      "source_coords": "OpenStreetMap (Nominatim) : point « La Famille Migneron de Charlevoix », Sentier des Florents (nœud 12013412694)",
+      "confirme": false,
+      "remarque": "Le « 100, chemin du Migneron » n'est pas dans OpenStreetMap. Les coordonnées sont celles de la fromagerie Migneron sur le même terrain : position approximative du restaurant."
+    },
+    {
+      "nom": "Coquette",
+      "note": "Buvette de fruits de mer à partager, Bib Gourmand Michelin 2026. Du mercredi au samedi.",
+      "adresse": "10041, avenue Royale, G0A 3C0",
+      "ville": "Sainte-Anne-de-Beaupré",
+      "lat": 47.0238437,
+      "lng": -70.9302893,
+      "site": "https://restaurantcoquette.ca/",
+      "source_adresse": "Site officiel restaurantcoquette.ca (pied de page)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Coquette », 10041 avenue Royale",
+      "confirme": true,
+      "remarque": ""
+    },
+    {
+      "nom": "Mano",
+      "note": "Pâtes fraîches, 18-22 $ le plat. Souvent plein : réserver.",
+      "adresse": "11, boulevard René-Lévesque Ouest, G1R 2A5",
+      "ville": "Québec (Montcalm)",
+      "lat": 46.8047169,
+      "lng": -71.2255957,
+      "site": "https://manoresto.com",
+      "source_adresse": "Site officiel manoresto.com (pied de page)",
+      "source_coords": "Lien Google Maps du site officiel; concorde avec OpenStreetMap (11 boul. René-Lévesque O.)",
+      "confirme": true,
+      "remarque": ""
+    },
+    {
+      "nom": "Beurre Baratté",
+      "note": "Bistro français-méditerranéen, petits plats à partager. Du mercredi au samedi, dès 17 h 30.",
+      "adresse": "82, rue Saint-Joseph Ouest",
+      "ville": "Québec (Saint-Sauveur)",
+      "lat": 46.8116114,
+      "lng": -71.2329669,
+      "site": "https://beurrebaratte.ca/",
+      "source_adresse": "Site officiel beurrebaratte.ca",
+      "source_coords": "OpenStreetMap (Nominatim) : adresse 82 rue Saint-Joseph Ouest, Saint-Sauveur",
+      "confirme": true,
+      "remarque": "Code postal pas affiché sur le site officiel; celui d'OpenStreetMap (G1X 1Z2) semble erroné, donc omis."
+    },
+    {
+      "nom": "Le Bosquet",
+      "note": "Bistro français abordable, magret au jus de thym. Fermé le lundi.",
+      "adresse": "56, boulevard René-Lévesque Ouest, G1R 2A3",
+      "ville": "Québec (Montcalm)",
+      "lat": 46.8047060,
+      "lng": -71.2263402,
+      "site": "https://lebosquet-qc.ca",
+      "source_adresse": "Site officiel lebosquet-qc.ca",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment 54-56 boul. René-Lévesque Ouest",
+      "confirme": true,
+      "remarque": "OpenStreetMap montre encore un autre nom de resto (Bistro La Goulette) à cette adresse. L'adresse vient du site officiel."
+    },
+    {
+      "nom": "Blaxton Lebourgneuf",
+      "note": "Pub & grill. Réservation sur Libro.",
+      "adresse": "100-1255, boulevard Lebourgneuf, G2K 0M6",
+      "ville": "Québec (Lebourgneuf)",
+      "lat": 46.835849,
+      "lng": -71.296216,
+      "site": "https://blaxton.com/restaurants/",
+      "source_adresse": "Site officiel blaxton.com (pages Restaurants et Nous joindre)",
+      "source_coords": "Fiche publique exa.ai pour le 1255 boul. Lebourgneuf; OpenStreetMap n'a pas ce numéro",
+      "confirme": false,
+      "remarque": "L'adresse est 100-1255 (et non 1225). Ces coordonnées tombent près du Complexe Sodicor (1305) dans OpenStreetMap, à environ 100-200 m près. Le lien du site d'origine (event-location) donne une erreur 404."
+    }
+  ]
+}

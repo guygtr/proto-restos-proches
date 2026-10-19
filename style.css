@@ -1,0 +1,27 @@
+:root{--brun:#7a2e1d;--creme:#fbf6ef;--texte:#2b2220;--gris:#6d625e;--carte:#fff;--ok:#2e7d4f;--warn:#b26a00}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--creme);color:var(--texte);line-height:1.4}
+header{background:var(--brun);color:#fff;padding:20px 16px 16px;padding-top:max(20px,env(safe-area-inset-top));position:sticky;top:0;z-index:2;box-shadow:0 2px 8px #0003}
+h1{margin:0;font-size:1.5rem}
+.sous-titre{margin:2px 0 12px;opacity:.85;font-size:.95rem}
+#btn-loc{width:100%;font-size:1.05rem;font-weight:600;padding:12px;border:0;border-radius:12px;background:#fff;color:var(--brun);cursor:pointer}
+#btn-loc:disabled{opacity:.6}
+#statut{margin:12px 16px 0;padding:10px 12px;border-radius:10px;background:#fff;font-size:.92rem;color:var(--gris)}
+#statut.erreur{background:#fff4e5;color:#7a4a00}
+#statut.ok{background:#eaf6ee;color:#1f5c38}
+main{padding:12px 16px 8px;display:flex;flex-direction:column;gap:12px}
+.carte{background:var(--carte);border-radius:14px;padding:14px;box-shadow:0 1px 4px #0001,0 4px 14px #0000000d}
+.haut{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.carte h2{margin:0;font-size:1.15rem}
+.ville{margin:2px 0 0;color:var(--gris);font-size:.9rem}
+.distance{flex:none;background:var(--brun);color:#fff;font-weight:700;border-radius:999px;padding:5px 10px;font-size:.95rem;white-space:nowrap}
+.distance.vide{background:#ddd;color:#555}
+.adresse{margin:8px 0 4px;font-size:.92rem}
+.note{margin:4px 0 8px;font-size:.95rem}
+.avert{margin:6px 0;font-size:.85rem;color:var(--warn);background:#fff7e8;border-radius:8px;padding:6px 8px}
+.actions{display:flex;gap:8px;margin-top:10px}
+.actions a{flex:1;text-align:center;text-decoration:none;padding:10px;border-radius:10px;font-weight:600;font-size:.95rem}
+.btn-site{border:1.5px solid var(--brun);color:var(--brun)}
+.btn-iti{background:var(--brun);color:#fff}
+footer{padding:8px 16px 28px;color:var(--gris);font-size:.8rem;text-align:center}
+footer p{margin:4px 0}
