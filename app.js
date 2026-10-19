@@ -71,7 +71,7 @@ function carte(r, i) {
     r.statut ? ligne('Statut', esc(court(r.statut, 110)), ferme ? 'st-ferme' : '') : '',
     r.code_postal && NC.test(r.code_postal) ? ligne('Code postal', `${esc(r.code_postal.replace(/\s*\(.*$/, ''))} ${badgeNC}`) : '',
     telNum ? ligne('Téléphone', `<a href="tel:${esc(telNum.replace(/\D/g, ''))}">${esc(telNum)}</a>${NC.test(r.telephone) ? ' ' + badgeNC : ''}`) : '',
-    r.reservation?.url ? ligne('Réservation', `<a href="${esc(r.reservation.url)}" target="_blank" rel="noopener">${esc(r.reservation.via || 'En ligne')} ↗</a>`) : '',
+    r.reservation?.url || r.reservation?.via ? ligne('Réservation', (r.reservation.url ? `<a href="${esc(r.reservation.url)}" target="_blank" rel="noopener">${esc(court(r.reservation.via || 'En ligne', 60))} ↗</a>` : esc(court(r.reservation.via, 90))) + (r.reservation.non_confirme || NC.test(r.reservation.via || '') ? ' ' + badgeNC : '')) : '',
     ligne('Plats phares', liste3(r.specialites).map((x) => esc(court(x))).join(' · ')),
     ligne('Bières phares', liste3(r.bieres).map((x) => esc(court(x.split(' — ')[0], 30))).join(' · '))
   ].join('');

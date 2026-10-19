@@ -591,6 +591,516 @@
         "ambiance": "https://icimicrobrasserie.com/ ; https://www.lecharlevoisien.com/2026/05/28/tony-et-charlo-devient-ici-microbrasserie/",
         "statut": "https://icimicrobrasserie.com/"
       }
+    },
+    {
+      "nom": "ARVI",
+      "categorie": "resto",
+      "note": "Table étoilée Michelin de Limoilou : menu dégustation en 5 services (105 $, version végétarienne au même prix) cuisiné devant les clients au comptoir. Accord 69 $. Mardi au samedi, 18 h à 22 h.",
+      "adresse": "519, 3e Avenue, G1L 2W4",
+      "ville": "Québec (Limoilou)",
+      "lat": 46.8234135,
+      "lng": -71.2271312,
+      "site": "https://www.restaurantarvi.ca/",
+      "source_adresse": "Site officiel restaurantarvi.ca (pied de page); aussi liste Michelin Québec 2026",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment du 519, 3e Avenue, Vieux-Limoilou (pas de point « Arvi » dans OSM) (way 103870026)",
+      "confirme": true,
+      "remarque": "Coordonnées = bâtiment de l'adresse; le restaurant lui-même n'est pas nommé dans OpenStreetMap.",
+      "horaire": "Mar.–sam. 18 h – 22 h · fermé dim.–lun.",
+      "source_horaire": "Site officiel https://www.restaurantarvi.ca/",
+      "telephone": "581 742-4202",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC015293780113/book",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Cuisine créative / moderne de saison, menu dégustation (régulier ou végétarien)",
+      "prix": {
+        "menu_degustation": "105 $ (5 services)",
+        "accord": "69 $",
+        "extras": "huître ou foie gras 22 $, pain 5 $",
+        "aperitifs": "6-14 $",
+        "michelin": "$$$$",
+        "source": "https://restaurantarvi.ca/menu (données du menu : https://restaurantarvi.ca/menu/api)"
+      },
+      "specialites": [
+        "Menu en 5 services qui change souvent (ex. thon, pêche, verveine; flétan, dashi, aubergine; pintade, carotte, homard)",
+        "Version végétarienne complète",
+        "Accord mets et vins"
+      ],
+      "bieres": "sans objet (restaurant; quelques bières québécoises à la carte, dont Les Grands Bois)",
+      "on_y_mange": "Cuisine complète (menu dégustation)",
+      "ambiance": "« La frontière entre la cuisine et la table est abolie » : plats préparés sous les yeux des clients, service par la même équipe que la cuisine.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "1 étoile Michelin (Guide Québec 2025, conservée en 2026)",
+      "pourquoi_populaire": "Étoilé Michelin 2025 et 2026; dans la liste des restaurants incontournables de Québec de Tastet (2026), qui le décrit comme un « incontournable » depuis 2018.",
+      "statut": "Ouvert (horaire et menu en ligne sur le site).",
+      "courriel": "info@restaurantarvi.ca",
+      "sources_details": {
+        "site_horaire_tel": "https://www.restaurantarvi.ca/",
+        "prix": "https://restaurantarvi.ca/menu",
+        "distinctions": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026 ; https://guide.michelin.com/ca/fr/article/michelin-guide-ceremony/tous-les-restaurants-etoiles-michelin-au-quebec-pour-2026-et-les-grandes-tendances-de-l-annee",
+        "popularite": "https://guide.michelin.com/ca/fr/article/michelin-guide-ceremony/tous-les-restaurants-etoiles-michelin-au-quebec-pour-2026-et-les-grandes-tendances-de-l-annee ; https://tastet.ca/listes/meilleurs-restaurants-de-quebec/",
+        "coords": "https://nominatim.openstreetmap.org/ (requête « 519 3e Avenue, Limoilou, Québec »)"
+      }
+    },
+    {
+      "nom": "Battuto",
+      "categorie": "resto",
+      "note": "Petit italien de 24 places, tout fait maison (pâtes, charcuteries, gelato). Bib Gourmand. Réservation en ligne nécessaire : les places partent vite.",
+      "adresse": "527, boulevard Langelier, G1K 5P7",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8103884,
+      "lng": -71.2299207,
+      "site": "https://battuto.ca/",
+      "source_adresse": "Site officiel battuto.ca (sans code postal); code postal G1K 5P7 selon le Guide Michelin",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Battuto », boulevard Langelier (node 7123154285)",
+      "confirme": true,
+      "remarque": "Code postal : Michelin indique G1K 5P7, Restoquébec G1K 5R4 (non confirmé, absent du site officiel).",
+      "horaire": "Mar.–sam. 17 h 30 – 22 h · fermé dim.–lun.",
+      "source_horaire": "Site officiel https://battuto.ca/ (confirmé par la fiche Michelin)",
+      "telephone": "418 614-4414",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC015054868358/book",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Italienne, tout fait maison",
+      "prix": {
+        "petites_bouchees": "5-15 $",
+        "plats": "23-29 $ (prix affichés; certains plats sans prix lisible sur le site)",
+        "desserts": "7-16 $ (tiramisu pour 2 : 16 $)",
+        "michelin": "$$",
+        "source": "https://battuto.ca/ (menu sur le site)"
+      },
+      "specialites": [
+        "Burrata, raisins, pistaches, fenouil 25 $",
+        "Mafaldine au ragù vénitien de canard 29 $",
+        "Carne cruda, gnocchi fritti 27 $",
+        "Suppli al telefono 10 $",
+        "Tiramisu pour 2 16 $"
+      ],
+      "bieres": "sans objet (restaurant)",
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Intime et chaleureux, 24 places, comptoir avec vue sur les cuisiniers; carte des vins courte axée Italie et France (Michelin).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand, Guide Michelin Québec (2026)",
+      "pourquoi_populaire": "Bib Gourmand Michelin 2026 (« chaque mois depuis 2016, les 24 places sont réservées en quelques minutes »); Tastet : « parmi les tables les plus appréciées de Québec ».",
+      "statut": "Ouvert.",
+      "sources_details": {
+        "site_horaire_tel_menu": "https://battuto.ca/",
+        "michelin": "https://guide.michelin.com/ca/fr/quebec/quebec_2434166/restaurant/battuto",
+        "bib_2026": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026",
+        "popularite": "https://guide.michelin.com/ca/fr/quebec/quebec_2434166/restaurant/battuto ; https://tastet.ca/listes/meilleurs-restaurants-de-quebec/",
+        "code_postal_divergent": "https://www.restoquebec.ca/resto/battuto-quebec/11549/fr/"
+      },
+      "code_postal": "G1K 5P7 (non confirmé : Michelin; Restoquébec donne G1K 5R4; absent du site officiel)"
+    },
+    {
+      "nom": "Buvette Scott",
+      "categorie": "resto",
+      "note": "Buvette à vins et petits plats de saison, menu qui change souvent, vinyles. Bouchées 5-13 $, plats 17-29 $. Bib Gourmand. Réservation recommandée.",
+      "adresse": "821, rue Scott, G1R 3C8",
+      "ville": "Québec (Saint-Jean-Baptiste)",
+      "lat": 46.809251,
+      "lng": -71.2211771,
+      "site": "https://www.buvettescott.com/",
+      "source_adresse": "Site officiel buvettescott.com (vu par l'index de recherche; la page est protégée par Cloudflare et je n'ai pas pu la charger directement)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Buvette Scott », 821 rue Scott (node 13180560705)",
+      "confirme": true,
+      "remarque": "Le site officiel bloque la lecture directe (Cloudflare). Horaire et téléphone repris de l'extrait indexé du site, puis confirmés par La Presse (19 sept. 2026).",
+      "horaire": "Mar.–sam. 17 h – 22 h · fermé dim.–lun.",
+      "source_horaire": "Site officiel (extrait indexé) https://www.buvettescott.com/?lang=fr ; La Presse 19 sept. 2026",
+      "telephone": "581 741-4464",
+      "reservation": {
+        "url": null,
+        "via": "Recommandée (La Presse); plateforme introuvable. Le formulaire du site ne prend pas de réservations.",
+        "non_confirme": true
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Buvette / bar à vins, cuisine du terroir en petits et moyens plats",
+      "prix": {
+        "bouchees": "5-13 $",
+        "plats": "17-29 $",
+        "vins": "verre 13-15 $, bouteille 45-350 $ (La Presse)",
+        "source": "Menu du 14 oct. 2026 : https://portal.restodata.ca/buvette-scott/menu/menu-fr-fr_650-2026-10-14-57.pdf ; https://www.lapresse.ca/gourmand/restaurants/2026-09-19/critique-resto/buvette-scott-quand-l-hospitalite-l-emporte-sur-l-assiette.php",
+        "remarque": "La Presse (sept.) donnait 22-35 $ pour les plats; le menu du 14 oct. affiche 17-29 $."
+      },
+      "specialites": [
+        "Jambon de canard (classique de la maison, La Presse) 12 $",
+        "Palourdes, tomatillo, salsa verde 13 $",
+        "Bombolone au parfait de foie de volaille 8 $ l'unité",
+        "Lasagne blanche aux matsutake 28 $",
+        "Cotechino de canard 29 $"
+      ],
+      "bieres": "sans objet (restaurant; « d'excellentes bières » selon le site)",
+      "on_y_mange": "Cuisine complète (petits et moyens plats)",
+      "ambiance": "Salle vibrante, vinyles, places au bar; environ 25 places (Wikipédia); grande carte de vins d'artisans.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand, Guide Michelin Québec 2025 et 2026",
+      "pourquoi_populaire": "Bib Gourmand 2025 et 2026; critique de La Presse (sept. 2026); Tastet : « une adresse coup de cœur à Québec ».",
+      "statut": "Ouvert (vacances terminées le 24 sept. 2026 selon La Presse).",
+      "sources_details": {
+        "site": "https://www.buvettescott.com/?lang=fr",
+        "prix": "https://portal.restodata.ca/buvette-scott/menu/menu-fr-fr_650-2026-10-14-57.pdf",
+        "critique": "https://www.lapresse.ca/gourmand/restaurants/2026-09-19/critique-resto/buvette-scott-quand-l-hospitalite-l-emporte-sur-l-assiette.php",
+        "distinctions": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026 ; https://guide.michelin.com/fr/fr/quebec/quebec_2434166/restaurant/buvette-scott",
+        "popularite": "https://tastet.ca/listes/meilleurs-restaurants-de-quebec/",
+        "places": "https://en.wikipedia.org/wiki/Buvette_Scott"
+      }
+    },
+    {
+      "nom": "lueur",
+      "categorie": "resto",
+      "note": "Bar-cuisine du Laurie Raphaël (chef Raphaël Vézina) : environ 15 places au comptoir, « fun dining ». Plats 12-29 $, menu complet 80 $. Bib Gourmand.",
+      "adresse": "117, rue Dalhousie, G1K 4C5",
+      "ville": "Québec (Vieux-Port, Vieux-Québec)",
+      "lat": 46.8170521,
+      "lng": -71.2025639,
+      "site": "https://laurieraphael.com/lueur/",
+      "source_adresse": "Site officiel laurieraphael.com/lueur (« 117 rue Dalhousie, à la porte d'à côté »); code postal G1K 4C5 selon la fiche Michelin de lueur",
+      "source_coords": "OpenStreetMap (Nominatim) : adresse 117 rue Dalhousie (pas de point « lueur » dans OSM) (node 1019189381)",
+      "confirme": true,
+      "remarque": "Code postal non confirmé : Michelin donne G1K 4C5 pour lueur mais G1K 9B7 pour Laurie Raphaël, à la même adresse. Entrée par la porte voisine du Laurie Raphaël.",
+      "horaire": "Jeu.–dim. dès 17 h 30 (site officiel; heure de fermeture non indiquée). Michelin : mer.–dim. 17 h 30 – 21 h. Horaire non confirmé.",
+      "source_horaire": "Site officiel https://laurieraphael.com/lueur/ vs fiche Michelin https://guide.michelin.com/en/quebec/quebec_2434166/restaurant/lueur",
+      "telephone": "418 692-4555 (non confirmé : numéro de la fiche Michelin, absent de la page lueur)",
+      "reservation": {
+        "url": "https://booking.libroreserve.com/23398852976bb3f/QC017170138399/seat",
+        "via": "Libro (groupes de 5+ : lueur@laurieraphael.com)"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Cuisine moderne / créative au comptoir (bar-cuisine)",
+      "prix": {
+        "plats": "12-29 $",
+        "menu_complet": "80 $ par personne",
+        "accord_mets_vins": "60 $",
+        "extra": "caviar 10 g 30 $",
+        "michelin": "$$",
+        "source": "Menu du 16 oct. 2026 : https://laurieraphael.com/wp-content/uploads/2026/10/lueur-MENU-NOURRITURE-WEB-FR-16-10-26.pdf"
+      },
+      "specialites": [
+        "Crudo de thon de Gaspésie et bourgot fumé 24 $",
+        "Burger de bajoue de morue en tempura 24 $",
+        "Onglet de bœuf AAA, oursinade 28 $",
+        "Magret de canard, prunes fermentées 29 $"
+      ],
+      "bieres": "sans objet (restaurant)",
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Long comptoir d'environ 15 places (14 selon Tastet), fresques et néons au plafond, musique vivante; cocktails signature et vins d'importation privée.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand, Guide Michelin Québec 2025 et 2026",
+      "pourquoi_populaire": "Bib Gourmand 2025 et 2026 (Michelin et site officiel); dans la liste des restaurants incontournables de Québec de Tastet (2026).",
+      "statut": "Ouvert (nouveau menu daté du 16 oct. 2026).",
+      "courriel": "lueur@laurieraphael.com",
+      "sources_details": {
+        "site": "https://laurieraphael.com/lueur/",
+        "menu_prix": "https://laurieraphael.com/wp-content/uploads/2026/10/lueur-MENU-NOURRITURE-WEB-FR-16-10-26.pdf",
+        "michelin": "https://guide.michelin.com/en/quebec/quebec_2434166/restaurant/lueur",
+        "popularite": "https://tastet.ca/listes/meilleurs-restaurants-de-quebec/"
+      },
+      "code_postal": "G1K 4C5 (non confirmé : Michelin donne G1K 9B7 pour Laurie Raphaël à la même adresse)"
+    },
+    {
+      "nom": "Melba",
+      "categorie": "resto",
+      "note": "Petit restaurant d'inspiration française à Saint-Sauveur (Alexandra Roy, Charles Provencher Proulx). Entrées 22-26 $, plats 27-60 $. Bib Gourmand. Mardi au samedi, 17 h 30 à 22 h.",
+      "adresse": "398, rue Saint-Vallier Ouest, G1K 1K6",
+      "ville": "Québec (Saint-Sauveur)",
+      "lat": 46.811959,
+      "lng": -71.2391987,
+      "site": "https://restaurantmelba.ca/",
+      "source_adresse": "Site officiel restaurantmelba.ca; code postal G1K 1K6 selon la liste Michelin Québec 2026",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment « Restaurant Melba », 398 rue Saint-Vallier Ouest (way 1232706385)",
+      "confirme": true,
+      "remarque": "Saint-Sauveur compte déjà Beurre Baratté dans le prototype.",
+      "horaire": "Mar.–sam. 17 h 30 – 22 h · fermé dim.–lun.",
+      "source_horaire": "Site officiel https://restaurantmelba.ca/",
+      "telephone": "418 614-3042",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC016547159296/book",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Bistro d'inspiration française, moderne",
+      "prix": {
+        "hors_d_oeuvre": "10-14 $ (prix lisibles)",
+        "entrees": "22-26 $",
+        "plats": "27-60 $ (bœuf Rossini 60 $)",
+        "desserts": "13 $ (prix lisible)",
+        "michelin": "$$",
+        "source": "https://restaurantmelba.ca/ (menu sur le site; quelques prix non lisibles)"
+      },
+      "specialites": [
+        "Dampfnudel au pistou et escargots 12 $",
+        "Pétoncles marinés, pil-pil au beurre noisette 26 $",
+        "Truite des Bobines, beurre blanc 28 $",
+        "Pintade contisée aux marrons 32 $",
+        "Bœuf grillé « Rossini », terrine de foie gras 60 $"
+      ],
+      "bieres": "sans objet (restaurant)",
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "« Petit restaurant d'inspiration française » (site); cuisine précise et élégante (Tastet).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand, Guide Michelin Québec 2026",
+      "pourquoi_populaire": "Bib Gourmand 2026; Tastet, liste des restaurants incontournables de Québec et guide des 101 incontournables; fiche Visiter Québec (quebec-cite.com).",
+      "statut": "Ouvert.",
+      "courriel": "info@restaurantmelba.ca",
+      "sources_details": {
+        "site_horaire_tel_menu": "https://restaurantmelba.ca/",
+        "distinctions": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026",
+        "popularite": "https://tastet.ca/listes/meilleurs-restaurants-de-quebec/ ; https://www.quebec-cite.com/en/businesses/melba"
+      }
+    },
+    {
+      "nom": "La Barberie",
+      "categorie": "microbrasserie",
+      "note": "Coopérative brassicole pionnière (depuis 1997), 16 bières en fût, carrousel de dégustation, grande terrasse. Menu à partager dès midi (3 plats pour 45 $). Enfants et chiens bienvenus.",
+      "adresse": "310, rue Saint-Roch, G1K 6S2",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8178956,
+      "lng": -71.2181278,
+      "site": "https://labarberie.com/",
+      "source_adresse": "Site officiel https://labarberie.com/nous-joindre/",
+      "source_coords": "OpenStreetMap (Nominatim) : point « La Barberie », 310 rue Saint-Roch (node 2518128269)",
+      "confirme": true,
+      "remarque": "",
+      "horaire": "Lun.–mar. 12 h – 23 h · mer.–sam. 12 h – 1 h · dim. 12 h – 23 h. Cuisine : lun.–mar. et dim. 12 h – 21 h, mer.–sam. 12 h – 22 h.",
+      "source_horaire": "Site officiel https://labarberie.com/nous-joindre/",
+      "telephone": "418 522-4373 (salon de dégustation : poste 1)",
+      "reservation": {
+        "url": "https://booking.libroreserve.com/17695313024687195ff17/QC017695313021535B2/seat",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Resto-pub de microbrasserie, petits plats à partager",
+      "prix": {
+        "petits_plats": "14-18 $ (3 pour 45 $, 5 pour 72 $)",
+        "a_l_assiette": "19-25 $",
+        "dessert": "8 $",
+        "bieres": "pinte à 6 $ pour C Tout et Le Terrier; autres prix introuvables",
+        "source": "https://labarberie.com/manger/ ; https://labarberie.com/boire/"
+      },
+      "bieres": {
+        "styles": "Très variée et en rotation : NEIPA, gose, blanches, stouts, lagers, wild ale, bières aux fruits de l'île d'Orléans, sans alcool (Placebo)",
+        "phares": [
+          "Blanche aux mûres de l'île 4,8 %",
+          "Le Terrier — stout irlandais 4,2 %",
+          "Bermuda Krush — NEIPA 5,3 %",
+          "Gros Matou — double IPA (collab Noctem) 7,8 %",
+          "Saison Brett — wild ale 6 %",
+          "Petite Escarbille — stout impérial 8,7 %"
+        ],
+        "carrousel": "bières 1 à 8 en galopins de 5 oz",
+        "source": "https://labarberie.com/boire/"
+      },
+      "specialites": [
+        "Crevettes rôties, sauce cari-coco 18 $",
+        "Patatas bravas au chorizo 15 $",
+        "Nachos carnitas 25 $",
+        "Fromage rôti et charcuteries 24 $"
+      ],
+      "on_y_mange": "Cuisine complète (« maintenant restaurant à temps plein »)",
+      "ambiance": "Salon de dégustation décontracté; terrasse très courue; enfants bienvenus; chiens acceptés à l'intérieur et dehors toute l'année.",
+      "terrasse": "Oui (« Nos terrasses », site officiel)",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Première coopérative microbrassicole au Québec (Tastet); pas de médaille trouvée",
+      "pourquoi_populaire": "Liste des meilleures microbrasseries de Québec de Tastet; guide des microbrasseries de Visiter Québec (quebec-cite.com); n° 2 du palmarès 2026 de promotion-entreprise.ca; « coup de cœur » du Caïman.",
+      "statut": "Ouvert.",
+      "courriel": "info@labarberie.com",
+      "sources_details": {
+        "horaire_tel": "https://labarberie.com/nous-joindre/",
+        "prix_manger": "https://labarberie.com/manger/",
+        "bieres": "https://labarberie.com/boire/",
+        "popularite": "https://tastet.ca/listes/meilleures-microbrasseries-ville-de-quebec/ ; https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://promotion-entreprise.ca/top-10-des-meilleures-microbrasseries-et-bars-a-biere-artisanale-a-quebec-en-2026/ ; https://www.lecaimanquebec.ca/blog-microbrasseries-quebec",
+        "ambiance": "https://labarberie.com/"
+      }
+    },
+    {
+      "nom": "La Souche (Limoilou)",
+      "categorie": "microbrasserie",
+      "note": "Brouepub de Limoilou, décor de bois : 18 lignes en rotation, dont une série expérimentale exclusive. Burgers, poutines et plats à partager (6-30 $).",
+      "adresse": "801, chemin de la Canardière, G1J 2B8",
+      "ville": "Québec (Vieux-Limoilou)",
+      "lat": 46.8288636,
+      "lng": -71.2258923,
+      "site": "https://lasouche.ca/pub/limoilou/",
+      "source_adresse": "Site officiel https://lasouche.ca/contact/",
+      "source_coords": "OpenStreetMap (Nominatim) : point « La Souche », 801 chemin de la Canardière (node 2408293710)",
+      "confirme": true,
+      "remarque": "La Souche a aussi un pub à Stoneham (hors ville) : cette fiche ne concerne que Limoilou.",
+      "horaire": "Dim.–mer. 11 h 30 – 23 h 59 · jeu.–sam. 11 h 30 – 1 h",
+      "source_horaire": "Site officiel https://lasouche.ca/contact/",
+      "telephone": "581 742-1144",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/booking/1f76da127f4f9a4/QC014170245221/seat",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Cuisine de pub (burgers, poutines, salades, plats à partager)",
+      "prix": {
+        "plats": "6-30 $ (burgers 22-24 $, poutines 15-27 $, nachos cochon 30 $)",
+        "bieres": "introuvable",
+        "source": "https://lasouche.ca/pub/limoilou/menu/"
+      },
+      "bieres": {
+        "styles": "Très large : lagers, rousse irlandaise, sures, dark mild, stout impérial en fût de whisky, triple, Berliner Weisse; ingrédients 100 % québécois pour une partie de la gamme",
+        "en_fut": [
+          "Gros Pin — rousse irlandaise 5 %",
+          "Offrande — blanche au basilic sacré 4,6 %",
+          "Ébène Whisky — stout impérial en fût de whisky Stadaconé 11,3 %",
+          "3 Sommets — triple 9,2 %",
+          "Stamm — Munich dunkel 5,4 %",
+          "Berlin Bliss — Berliner Weisse 3,7 %"
+        ],
+        "source": "https://lasouche.ca/pub/limoilou/"
+      },
+      "specialites": [
+        "Poutine Boules du bûcheron (croquettes de fromage en grains)",
+        "Burger Interbucheron",
+        "Croquettes de fromage en grains La Chaudière (3 pour 10 $, 6 pour 18 $)"
+      ],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Décor rustique où le bois domine (Visiter Québec); espace chaleureux et festif; ardoise changeante.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "introuvable",
+      "pourquoi_populaire": "Liste des meilleures microbrasseries de Québec de Tastet; guide des microbrasseries de Visiter Québec; n° 4 du palmarès 2026 de promotion-entreprise.ca; circuit du Caïman.",
+      "statut": "Ouvert.",
+      "courriel": "info.limoilou@lasouche.ca",
+      "sources_details": {
+        "horaire_tel": "https://lasouche.ca/contact/",
+        "bieres": "https://lasouche.ca/pub/limoilou/",
+        "prix": "https://lasouche.ca/pub/limoilou/menu/",
+        "reservation": "https://lasouche.ca/ (bouton Réserver > Limoilou)",
+        "popularite": "https://tastet.ca/listes/meilleures-microbrasseries-ville-de-quebec/ ; https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://promotion-entreprise.ca/top-10-des-meilleures-microbrasseries-et-bars-a-biere-artisanale-a-quebec-en-2026/"
+      }
+    },
+    {
+      "nom": "Brasserie Inox (Grande Allée)",
+      "categorie": "microbrasserie",
+      "note": "La plus ancienne microbrasserie de Québec encore en activité (depuis 1987), sur la Grande Allée : terrasse festive, hot-dogs européens. Ouvert tard (jusqu'à 3 h ven.–sam.).",
+      "adresse": "655, Grande Allée Est, G1R 2K4",
+      "ville": "Québec (Colline Parlementaire, Grande Allée)",
+      "lat": 46.8063867,
+      "lng": -71.216054,
+      "site": "https://brasserieinox.com/",
+      "source_adresse": "Site officiel brasserieinox.com (pied de page)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Brasserie INOX », 655 Grande Allée Est (node 2827871983)",
+      "confirme": true,
+      "remarque": "Inox a aussi une adresse à Loretteville (non traitée ici).",
+      "horaire": "Dim. 12 h – 21 h · lun.–mar. 15 h – 23 h · mer. 11 h – minuit · jeu. 11 h – 2 h · ven.–sam. 11 h – 3 h",
+      "source_horaire": "Site officiel https://brasserieinox.com/",
+      "telephone": "418 692-2877",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/booking/23de95584fd0562/QC016154171524/seat",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Bouffe de brasserie (hot-dogs européens, nachos, pizzas, sandwichs)",
+      "prix": {
+        "bouffe": "popcorn 6 $, hot-dogs 12,50-15,50 $, sandwichs et pizzas 16-18 $, plateau à partager 33 $",
+        "bieres": "9 $ à 10,50 $ (format non précisé sur le menu)",
+        "source": "https://menu.brasserieinox.com/menu/bouffe/menu-regulier/ ; https://menu.brasserieinox.com/menu/dans-nos-pompes/"
+      },
+      "bieres": {
+        "styles": "Lagers, ambrées, ESB, scotch ale nitro, IPA et DIPA, stout irlandais, sure aux fruits",
+        "phares": [
+          "Labrosse — extra blonde lager 5 %",
+          "Ambrée d'érable 5,7 %",
+          "Scotch Ale 6 % (azote)",
+          "Double Vison — DIPA West Coast 7,5 %",
+          "Stout irlandais 4,4 %",
+          "Rose Lime — sure framboise et lime 6 %",
+          "Oktoberfest — lager ambrée 4,6 % (saisonnière)"
+        ],
+        "source": "https://menu.brasserieinox.com/menu/dans-nos-pompes/"
+      },
+      "specialites": [
+        "Hot-dog européen (saucisse William ou viennoise) 12,50 $",
+        "Hot-dog à Marto 15,50 $",
+        "Pain à la fondue au fromage et vin 18 $"
+      ],
+      "on_y_mange": "Cuisine de type bouchées et casse-croûte (pas de restaurant complet)",
+      "ambiance": "Ambiance festive de la Grande Allée, superbe terrasse (Visiter Québec); le hot-dog européen est un classique.",
+      "terrasse": "Oui (Visiter Québec)",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Première microbrasserie de Québec toujours en opération (Visiter Québec); pas de médaille trouvée",
+      "pourquoi_populaire": "N° 1 du guide des microbrasseries « en ville » de Visiter Québec (quebec-cite.com); n° 7 du palmarès 2026 de promotion-entreprise.ca; mentionnée par Le Caïman.",
+      "statut": "Ouvert.",
+      "courriel": "info@brasserieinox.com",
+      "sources_details": {
+        "horaire_tel": "https://brasserieinox.com/",
+        "bieres": "https://menu.brasserieinox.com/menu/dans-nos-pompes/",
+        "bouffe": "https://menu.brasserieinox.com/menu/bouffe/menu-regulier/",
+        "popularite": "https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://promotion-entreprise.ca/top-10-des-meilleures-microbrasseries-et-bars-a-biere-artisanale-a-quebec-en-2026/ ; https://www.lecaimanquebec.ca/blog-microbrasseries-quebec"
+      }
+    },
+    {
+      "nom": "La Korrigane",
+      "categorie": "microbrasserie",
+      "note": "Brasserie artisanale de Saint-Roch depuis 2010 : bières en petits lots (série Kraken), cuisine locale servie jusqu'à 22 h. Plats 8-38 $. Quiz et soirées swing.",
+      "adresse": "380, rue Dorchester, G1K 6A7",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8138014,
+      "lng": -71.2269457,
+      "site": "https://www.korrigane.ca/",
+      "source_adresse": "Site officiel https://www.korrigane.ca/contact",
+      "source_coords": "OpenStreetMap (Nominatim) : point « La Korrigane - Brasserie Artisanale », 380 rue Dorchester (node 2409284129)",
+      "confirme": true,
+      "remarque": "Saint-Roch compte déjà Noctem dans le prototype, et La Barberie dans cette liste.",
+      "horaire": "Lun.–jeu. et dim. 11 h 30 – minuit · ven.–sam. 11 h 30 – 2 h (peut finir plus tard si achalandé). Cuisine tous les jours 11 h 30 – 22 h.",
+      "source_horaire": "Site officiel https://www.korrigane.ca/contact ; https://www.korrigane.ca/menu",
+      "telephone": "418 614-0932",
+      "reservation": {
+        "url": "https://www.korrigane.ca/reserver",
+        "via": "Réservation en ligne sur le site (plateforme non identifiée)",
+        "non_confirme": true
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Cuisine de brasserie axée sur les producteurs locaux (burgers, poutines, fish & chips, plateaux)",
+      "prix": {
+        "plats": "8-38 $ (poutine 11-17,50 $, fish & chips 25,50 $, plateau fromages-charcuteries 38 $)",
+        "bieres": "introuvable",
+        "source": "https://www.korrigane.ca/menu"
+      },
+      "bieres": {
+        "styles": "Petits lots de 500 L : IPA (série Kraken), NEIPA, kölsch, stouts, saisons aux fruits, sures, old ale",
+        "phares": [
+          "White Kraken — NEIPA 6 %",
+          "Double Kraken — IPA impériale 8 %",
+          "Cornik — stout à l'avoine 5 %",
+          "Morganed — witbier 5 %",
+          "Saison Camerise 5,5 %",
+          "Golem DC — bitter au lactaire à odeur d'érable 3,5 %"
+        ],
+        "source": "https://www.korrigane.ca/bieres"
+      },
+      "specialites": [
+        "Hot-dog européen à la saucisse Cornik faite sur place",
+        "Burger de bœuf Angus sur pain à la drêche",
+        "Plateau de fromages et charcuteries dans un pretzel géant 38 $",
+        "Beignes à la bière (Visiter Québec)"
+      ],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Décor chaleureux; événements (quiz le 27 oct., soirées swing le mercredi); producteurs locaux (Malterie Caux-Laflamme, verger d'aronia de l'Île d'Orléans).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Reconnue par le programme Aliments du Québec au menu (site officiel); pas de médaille trouvée",
+      "pourquoi_populaire": "Liste des meilleures microbrasseries de Québec de Tastet; guide des microbrasseries de Visiter Québec; n° 6 du palmarès 2026 de promotion-entreprise.ca; circuit du Caïman.",
+      "statut": "Ouvert (événements annoncés en oct. et nov. 2026).",
+      "courriel": "info@korrigane.ca",
+      "sources_details": {
+        "horaire_tel": "https://www.korrigane.ca/contact",
+        "prix": "https://www.korrigane.ca/menu",
+        "bieres": "https://www.korrigane.ca/bieres",
+        "distinctions": "https://www.korrigane.ca/apropos",
+        "popularite": "https://tastet.ca/listes/meilleures-microbrasseries-ville-de-quebec/ ; https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://promotion-entreprise.ca/top-10-des-meilleures-microbrasseries-et-bars-a-biere-artisanale-a-quebec-en-2026/ ; https://www.lecaimanquebec.ca/blog-microbrasseries-quebec"
+      }
     }
   ]
 }

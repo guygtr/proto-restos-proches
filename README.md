@@ -44,7 +44,9 @@ Toutes les données sont dans `restos.json`. Pour ajouter un resto, copie une fi
 | `statut` | texte | Ouvert / fermé pour la saison, affiché sur la carte |
 | `sources_details` | objet | Source de chaque champ enrichi |
 
-Un « non confirmé », « contradictoire » ou « incertain » dans `horaire`, `telephone` ou `code_postal` affiche un badge jaune **⚠️ non confirmé**.
+Un « non confirmé », « contradictoire » ou « incertain » dans `horaire`, `telephone`, `code_postal` ou `reservation.via` affiche un badge jaune **⚠️ non confirmé**. Pour la réservation, on peut aussi mettre `"reservation": { ..., "non_confirme": true }`. Si `reservation.url` est vide, le texte de `via` s'affiche sans lien.
+
+Autres champs possibles : `pourquoi_populaire` (texte, non affiché).
 | `source_horaire` | texte | D'où vient l'horaire |
 | `source_adresse` | texte | D'où vient l'adresse (site officiel, etc.) |
 | `source_coords` | texte | D'où viennent les coordonnées (OpenStreetMap/Nominatim, lien Google Maps du site, etc.) |
