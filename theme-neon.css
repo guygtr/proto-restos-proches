@@ -1,0 +1,65 @@
+/* Variante 3 — Néon nocturne : violet profond, dégradés rose électrique / cyan / lime */
+:root {
+  --c-bg: #160a3a;
+  --c-surface: rgba(38, 18, 92, .72);
+  --c-surface-2: rgba(255, 255, 255, .1);
+  --c-border: rgba(160, 120, 255, .35);
+  --c-border-strong: rgba(0, 229, 255, .55);
+  --c-text: #f6f1ff;
+  --c-text-muted: #c9bdf2;
+  --color-gold: #ff3ea5;      /* rose électrique */
+  --c-gold-ink: #1a0630;
+  --c-resto: #ff3ea5;         /* rose électrique */
+  --c-micro: #b6ff3b;         /* lime */
+  --c-cyan: #00e5ff;
+  --c-warn: #ffe066; --c-warn-bg: rgba(255, 224, 102, .12);
+  --c-closed: #ffb3c7; --c-closed-bg: rgba(255, 62, 120, .2);
+  --c-ok: #7dffb2;
+  --c-focus: #00e5ff;
+  --glass-shadow: 0 0 0 1px rgba(255,62,165,.25), 0 10px 40px rgba(255, 62, 165, .22), 0 0 60px rgba(0, 229, 255, .08);
+  --shadow-gold: 0 0 22px rgba(255, 62, 165, .6);
+  --r-lg: 20px;
+}
+body {
+  background-color: var(--c-bg);
+  background-image:
+    radial-gradient(30rem 22rem at -15% -5%, rgba(255, 62, 165, .45), transparent 60%),
+    radial-gradient(28rem 24rem at 115% 35%, rgba(0, 229, 255, .32), transparent 60%),
+    radial-gradient(26rem 20rem at 20% 105%, rgba(182, 255, 59, .22), transparent 60%),
+    linear-gradient(180deg, #1c0b4a, #0f0630);
+  background-attachment: fixed;
+}
+.entete { background: rgba(22, 10, 58, .78); border-bottom: 1px solid transparent; border-image: linear-gradient(90deg, #ff3ea5, #00e5ff, #b6ff3b) 1; }
+.neon { color: transparent; background: linear-gradient(90deg, #ff3ea5, #c86bff 45%, #00e5ff); -webkit-background-clip: text; background-clip: text; text-shadow: none; filter: drop-shadow(0 0 10px rgba(255, 62, 165, .55)); }
+.btn-neon { color: var(--c-cyan); background: rgba(0, 229, 255, .1); border: 1.5px solid var(--c-cyan); box-shadow: 0 0 16px rgba(0, 229, 255, .45), inset 0 0 10px rgba(0,229,255,.15); }
+@media (hover: hover) { .btn-neon:hover { background: var(--c-cyan); color: #06222a; box-shadow: 0 0 26px rgba(0,229,255,.8); } }
+.filtres { background: rgba(10, 4, 30, .6); border-color: var(--c-border); }
+.filtre[aria-pressed="true"] { background: linear-gradient(90deg, #ff3ea5, #c86bff); color: #1a0630; box-shadow: var(--shadow-gold); font-weight: 800; }
+.filtre[data-filtre="microbrasserie"][aria-pressed="true"] { background: linear-gradient(90deg, #b6ff3b, #00e5ff); box-shadow: 0 0 22px rgba(182,255,59,.5); }
+.carte {
+  border: 1.5px solid transparent;
+  background:
+    linear-gradient(rgba(30, 14, 78, .9), rgba(30, 14, 78, .9)) padding-box,
+    linear-gradient(135deg, #ff3ea5, #c86bff 50%, #00e5ff) border-box;
+}
+.carte[data-categorie="microbrasserie"] {
+  background:
+    linear-gradient(rgba(30, 14, 78, .9), rgba(30, 14, 78, .9)) padding-box,
+    linear-gradient(135deg, #b6ff3b, #00e5ff) border-box;
+  box-shadow: 0 10px 40px rgba(182, 255, 59, .14), 0 0 50px rgba(0, 229, 255, .12);
+}
+.rang { background: var(--c-resto); color: #1a0630; box-shadow: 0 0 10px rgba(255,62,165,.7); }
+.carte[data-categorie="microbrasserie"] .rang { background: var(--c-micro); box-shadow: 0 0 10px rgba(182,255,59,.7); }
+.distance { color: #0b0420; background: linear-gradient(135deg, #00e5ff, #b6ff3b); box-shadow: 0 0 18px rgba(0, 229, 255, .7), 0 0 4px rgba(182,255,59,.9); font-size: 1.0625rem; padding: 7px 14px; }
+.puce { background: rgba(255,255,255,.06); }
+.puce.resto { color: #ff8ccb; border-color: rgba(255, 62, 165, .6); background: rgba(255, 62, 165, .14); }
+.puce.micro { color: var(--c-micro); border-color: rgba(182, 255, 59, .55); background: rgba(182, 255, 59, .1); }
+.horaire { background: rgba(0, 0, 0, .3); border: 1px solid rgba(255,62,165,.25); }
+.horaire b { color: #ff8ccb; }
+.carte[data-categorie="microbrasserie"] .horaire { border-color: rgba(182,255,59,.25); }
+.carte[data-categorie="microbrasserie"] .horaire b { color: var(--c-micro); }
+.btn-plein { color: #1a0630; background: linear-gradient(90deg, #ff3ea5, #c86bff); border: 0; font-weight: 800; box-shadow: 0 0 14px rgba(255,62,165,.45); }
+.carte[data-categorie="microbrasserie"] .btn-plein { background: linear-gradient(90deg, #b6ff3b, #00e5ff); box-shadow: 0 0 14px rgba(182,255,59,.4); }
+.btn-ligne { color: var(--c-text); background: rgba(255,255,255,.05); border: 1px solid rgba(200, 107, 255, .55); }
+@media (hover: hover) { .btn-ligne:hover { background: rgba(200,107,255,.18); } }
+.toast { background: rgba(22, 10, 58, .95); border-color: var(--c-cyan); box-shadow: 0 0 20px rgba(0,229,255,.4); }
