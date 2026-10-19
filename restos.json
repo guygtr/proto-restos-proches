@@ -602,7 +602,7 @@
       "lng": -71.2271312,
       "site": "https://www.restaurantarvi.ca/",
       "source_adresse": "Site officiel restaurantarvi.ca (pied de page); aussi liste Michelin Québec 2026",
-      "source_coords": "OpenStreetMap (Nominatim) : bâtiment du 519, 3e Avenue, Vieux-Limoilou (pas de point « Arvi » dans OSM) (way 103870026)",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment du 519, 3e Avenue, Vieux-Limoilou (pas de point « Arvi » dans OSM) (way 103870026). Note : la way OSM 103870026 est la ligne d'interpolation d'adresses des numéros 503 à 593 de la 3e Avenue, pas le bâtiment; position estimée.",
       "confirme": true,
       "remarque": "Coordonnées = bâtiment de l'adresse; le restaurant lui-même n'est pas nommé dans OpenStreetMap.",
       "horaire": "Mar.–sam. 18 h – 22 h · fermé dim.–lun.",
@@ -1100,6 +1100,84 @@
         "bieres": "https://www.korrigane.ca/bieres",
         "distinctions": "https://www.korrigane.ca/apropos",
         "popularite": "https://tastet.ca/listes/meilleures-microbrasseries-ville-de-quebec/ ; https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://promotion-entreprise.ca/top-10-des-meilleures-microbrasseries-et-bars-a-biere-artisanale-a-quebec-en-2026/ ; https://www.lecaimanquebec.ca/blog-microbrasseries-quebec"
+      }
+    },
+    {
+      "nom": "Emporium Microbrasserie",
+      "categorie": "microbrasserie",
+      "note": "Brouepub de Charlesbourg ouvert en janvier 2019 : bières brassées sur place (lagers, ales, barriquées), pizzas cuites au four à pierre rotatif importé d'Italie, décor steampunk, terrasse avec BBQ.",
+      "adresse": "5350, boul. Henri-Bourassa, G1H 6Y9",
+      "ville": "Québec (Charlesbourg)",
+      "lat": 46.8511752,
+      "lng": -71.2504398,
+      "site": "https://microbrasserieemporium.com/",
+      "source_adresse": "Site officiel https://microbrasserieemporium.com/policies/contact-information (G1H 6Y9); aussi Restoquébec et Voilà Québec. Bonjour Québec et Guide Restos Québec donnent G1H 6Y8, OSM/Nominatim G1H 3B1 : code postal retenu = celui du site officiel.",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Microbrasserie Emporium », 5350 boul. Henri-Bourassa (node 11300013371)",
+      "confirme": true,
+      "remarque": "Hors des quartiers centraux (Charlesbourg, environ 4 km au nord de Limoilou), mais dans la ville de Québec.",
+      "horaire": "Mar.–sam. 11 h 30 – minuit · dim. 11 h 30 – 22 h · fermé lun. (non confirmé : certaines sources indiquent une ouverture à 15 h 30 le mardi et le mercredi)",
+      "source_horaire": "Site officiel (accueil et page Nous joindre, oct. 2026). Non confirmé : l'ancienne page /contact/ (index de recherche) et Restoquébec indiquent mar.–mer. dès 15 h 30; Voilà Québec dit dim. jusqu'à 22 h 30.",
+      "telephone": "418 204-0514",
+      "reservation": {
+        "url": "https://widget.libroreserve.com/23d33b74cef3ad4/QC016134202421/seat",
+        "via": "Libro"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Brouepub, cuisine d'inspiration italienne (pizzas au four à pierre rotatif)",
+      "prix": {
+        "entrees": "9-19 $ (planche antipasto 31 $)",
+        "pizzas": "21-30 $ (pizzas enfant 9 po 14-17 $)",
+        "plats_fraicheur": "23-30 $ (sandwichs, césar, tartares)",
+        "desserts": "10 $",
+        "bieres_lager": "galopin 5 $ · verre 7,75 $ · pinte 9,50 $ · snyt 7,75 $ · mliko 6 $ (+ taxes)",
+        "bieres_ale": "régulière : galopin 5 $, verre 7,75 $, pinte 9,50 $; spécialité : 6 $, 8,75 $, 10,50 $ (+ taxes)",
+        "bieres_barriquees": "demi-verre 7,50 $, verre 13,50 $ (+ taxes)",
+        "degustation": "3 galopins 13 $ (+1,50 $ par spécialité, +3 $ par barriquée), + taxes",
+        "canettes": "473 ml à 5,10 $ (boutique en ligne)",
+        "source": "Menu PDF du site (Menu-ETE-26, modifié le 14 juil. 2026) https://cdn.shopify.com/s/files/1/0924/9203/8419/files/Menu-ETE-26.pdf ; boutique https://microbrasserieemporium.com/collections/all",
+        "remarque": "Menu « été 2026 » : c'est le menu en ligne en octobre, mais la carte d'automne pourrait différer (non confirmé)."
+      },
+      "bieres": {
+        "styles": "Quatre séries : basse fermentation (lagers), standard, expérimentale, vieillie en fût. 14 lignes au menu Untappd.",
+        "en_fut": [
+          "Bis — pilsner tchèque 4,8 %",
+          "Gonzague — märzen 5,8 %",
+          "Hareng — lager fumée 4,2 %",
+          "Munich Festivités — festbier 6,2 %",
+          "Weissbier — hefeweizen 5 %",
+          "Terre et Mer — gose 4,5 %",
+          "Rubicon — NE pale ale 5,5 %",
+          "Goon — NEIPA 6,5 %",
+          "Brain Juice — IPA impériale 8 %",
+          "Schema 02 — Kentucky common 5,4 %",
+          "Super Orgy Porter Party en fût de whisky — porter baltique 10 %",
+          "Après Souper — pastry stout 8 %",
+          "À s'y méprendre — barleywine 11,9 %"
+        ],
+        "source": "Menu des lignes de fût Untappd lié par le site https://business.untappd.com/prints/92469.pdf (page https://microbrasserieemporium.com/pages/en-fut); séries : Voilà Québec"
+      },
+      "specialites": [
+        "Pizza Halifax (sauce donair, agneau épicé) 29 $",
+        "Pizza Fondante (fromages, poires, pacanes, érable) 24 $",
+        "Doigts donair 16 $",
+        "Tartare de saumon 30 $ / de bœuf 28 $",
+        "Sandwich mortadelle-burratina 26 $"
+      ],
+      "on_y_mange": "Cuisine complète midi et soir (sauf lun. et midis de mar.–mer. si l'ancien horaire s'applique)",
+      "ambiance": "Vaste salle au décor steampunk (125 places à l'ouverture selon HRImag); quiz un dimanche sur deux, humour le 1er mardi du mois (Voilà Québec); boutique de canettes.",
+      "terrasse": "Oui, avec BBQ (Visiter Québec); chiens en laisse admis sur la terrasse (Bonjour Québec)",
+      "accessibilite_stationnement": "Stationnement gratuit sur place (Bonjour Québec, Guide Restos Québec); entrée accessible en fauteuil roulant selon Restoquébec (non confirmé); bus 800, 801, 36 (Bonjour Québec)",
+      "distinctions": "Aucune médaille ou distinction trouvée",
+      "pourquoi_populaire": "Guide des microbrasseries de Visiter Québec (quebec-cite.com); fiches Bonjour Québec, Voilà Québec, Guide Restos Québec; Restoquébec 4,8. Absente de la liste Tastet des meilleures microbrasseries : popularité surtout locale (nord de la ville).",
+      "statut": "Ouvert (horaire et menu en ligne en oct. 2026, boutique active).",
+      "courriel": "restaurant@microbrasserieemporium.com",
+      "sources_details": {
+        "site_horaire_tel": "https://microbrasserieemporium.com/ ; https://microbrasserieemporium.com/pages/nous-joindre",
+        "adresse_legale": "https://microbrasserieemporium.com/policies/contact-information",
+        "menu": "https://microbrasserieemporium.com/pages/menu",
+        "bieres": "https://microbrasserieemporium.com/pages/en-fut",
+        "historique": "https://hrimag.com/Emporium-Microbrasserie-Pizzas-houblons-et-esprit-steampunk",
+        "popularite": "https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://www.bonjourquebec.com/en/listing/restaurants/emporium-microbrasserie/0qrh ; https://voilaquebec.com/listing/emporium-microbrasserie/ ; https://guiderestosquebec.com/en/listing/restaurant/emporium-microbrasserie/ ; https://www.restoquebec.ca/resto/emporium-microbrasserie-quebec/13739/fr/"
       }
     }
   ]
