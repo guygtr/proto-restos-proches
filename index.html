@@ -3,23 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#7a2e1d">
+  <meta name="theme-color" content="#0c0a09">
+  <meta name="color-scheme" content="dark">
   <title>Restos proches</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Restos proches</h1>
-    <p class="sous-titre">Du plus proche au plus loin de toi</p>
-    <button id="btn-loc" type="button">📍 Me localiser</button>
+  <a class="skip" href="#liste">Aller à la liste</a>
+  <header class="entete glass">
+    <div class="entete__ligne">
+      <div>
+        <h1>Restos <span class="neon">proches</span></h1>
+        <p class="sous-titre">Du plus proche au plus loin de toi</p>
+      </div>
+      <button id="btn-loc" class="btn-neon" type="button" aria-label="Me localiser et trier par distance">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        <span>Me localiser</span>
+      </button>
+    </div>
+    <div class="filtres" role="group" aria-label="Filtrer par type">
+      <button type="button" class="filtre" data-filtre="tout" aria-pressed="true">Tout <span class="nb" id="nb-tout"></span></button>
+      <button type="button" class="filtre" data-filtre="resto" aria-pressed="false">Restos <span class="nb" id="nb-resto"></span></button>
+      <button type="button" class="filtre" data-filtre="microbrasserie" aria-pressed="false">Microbrasseries <span class="nb" id="nb-microbrasserie"></span></button>
+    </div>
   </header>
-  <div id="statut" role="status" aria-live="polite">Chargement…</div>
-  <main id="liste"></main>
-  <footer>
-    <p>Distances à vol d'oiseau. ⚠️ = position à confirmer.</p>
+  <p id="statut" class="statut" role="status" aria-live="polite">Chargement…</p>
+  <main id="liste" class="liste" aria-live="polite"></main>
+  <footer class="pied">
+    <p>Distances à vol d'oiseau. ⚠️ = position à confirmer. Heures : Québec/Toronto.</p>
     <p id="maj"></p>
   </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
   <script src="app.js"></script>
 </body>
 </html>

@@ -12,11 +12,16 @@
       "source_adresse": "Site officiel relaisdesflorent.com (section Contact); aussi tourisme-charlevoix.com",
       "source_coords": "OpenStreetMap (Nominatim) : point « La Famille Migneron de Charlevoix », Sentier des Florents (nœud 12013412694)",
       "confirme": false,
-      "remarque": "Le « 100, chemin du Migneron » n'est pas dans OpenStreetMap. Les coordonnées sont celles de la fromagerie Migneron sur le même terrain : position approximative du restaurant."
+      "remarque": "Le « 100, chemin du Migneron » n'est pas dans OpenStreetMap. Les coordonnées sont celles de la fromagerie Migneron sur le même terrain : position approximative du restaurant.",
+      "categorie": "resto",
+      "horaire": "",
+      "reservation": null,
+      "telephone": "",
+      "ferme_jusqua": ""
     },
     {
       "nom": "Coquette",
-      "note": "Buvette de fruits de mer à partager, Bib Gourmand Michelin 2026. Du mercredi au samedi.",
+      "note": "Buvette de fruits de mer à partager, Bib Gourmand Michelin 2026.",
       "adresse": "10041, avenue Royale, G0A 3C0",
       "ville": "Sainte-Anne-de-Beaupré",
       "lat": 47.0238437,
@@ -25,7 +30,16 @@
       "source_adresse": "Site officiel restaurantcoquette.ca (pied de page)",
       "source_coords": "OpenStreetMap (Nominatim) : point « Coquette », 10041 avenue Royale",
       "confirme": true,
-      "remarque": ""
+      "remarque": "",
+      "categorie": "resto",
+      "horaire": "Mercredi au samedi, 17 h – 22 h",
+      "reservation": {
+        "url": "https://booking.libroreserve.com/3bc768622871ec/QC017503657418/seat",
+        "via": "Libro"
+      },
+      "telephone": "418 702-1414",
+      "ferme_jusqua": "",
+      "source_horaire": "Site officiel restaurantcoquette.ca (« Ouvert du mercredi au samedi — 17h à 22h »); lien Libro tiré du bouton Réserver du site"
     },
     {
       "nom": "Mano",
@@ -38,11 +52,16 @@
       "source_adresse": "Site officiel manoresto.com (pied de page)",
       "source_coords": "Lien Google Maps du site officiel; concorde avec OpenStreetMap (11 boul. René-Lévesque O.)",
       "confirme": true,
-      "remarque": ""
+      "remarque": "",
+      "categorie": "resto",
+      "horaire": "",
+      "reservation": null,
+      "telephone": "",
+      "ferme_jusqua": ""
     },
     {
       "nom": "Beurre Baratté",
-      "note": "Bistro français-méditerranéen, petits plats à partager. Du mercredi au samedi, dès 17 h 30.",
+      "note": "Bistro français-méditerranéen, petits plats à partager.",
       "adresse": "82, rue Saint-Joseph Ouest",
       "ville": "Québec (Saint-Sauveur)",
       "lat": 46.8116114,
@@ -51,20 +70,34 @@
       "source_adresse": "Site officiel beurrebaratte.ca",
       "source_coords": "OpenStreetMap (Nominatim) : adresse 82 rue Saint-Joseph Ouest, Saint-Sauveur",
       "confirme": true,
-      "remarque": "Code postal pas affiché sur le site officiel; celui d'OpenStreetMap (G1X 1Z2) semble erroné, donc omis."
+      "remarque": "Code postal pas affiché sur le site officiel; celui d'OpenStreetMap (G1X 1Z2) semble erroné, donc omis.",
+      "categorie": "resto",
+      "horaire": "Mercredi au samedi, dès 17 h 30",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC017833706888D0578/book",
+        "via": "Libro"
+      },
+      "telephone": "",
+      "ferme_jusqua": "",
+      "source_horaire": "Site officiel beurrebaratte.ca (section Réservations : « Du mercredi au samedi, dès 17h30 »); widget Libro du site"
     },
     {
       "nom": "Le Bosquet",
       "note": "Bistro français abordable, magret au jus de thym. Fermé le lundi.",
       "adresse": "56, boulevard René-Lévesque Ouest, G1R 2A3",
       "ville": "Québec (Montcalm)",
-      "lat": 46.8047060,
+      "lat": 46.804706,
       "lng": -71.2263402,
       "site": "https://lebosquet-qc.ca",
       "source_adresse": "Site officiel lebosquet-qc.ca",
       "source_coords": "OpenStreetMap (Nominatim) : bâtiment 54-56 boul. René-Lévesque Ouest",
       "confirme": true,
-      "remarque": "OpenStreetMap montre encore un autre nom de resto (Bistro La Goulette) à cette adresse. L'adresse vient du site officiel."
+      "remarque": "OpenStreetMap montre encore un autre nom de resto (Bistro La Goulette) à cette adresse. L'adresse vient du site officiel.",
+      "categorie": "resto",
+      "horaire": "",
+      "reservation": null,
+      "telephone": "",
+      "ferme_jusqua": ""
     },
     {
       "nom": "Blaxton Lebourgneuf",
@@ -77,7 +110,110 @@
       "source_adresse": "Site officiel blaxton.com (pages Restaurants et Nous joindre)",
       "source_coords": "Fiche publique exa.ai pour le 1255 boul. Lebourgneuf; OpenStreetMap n'a pas ce numéro",
       "confirme": false,
-      "remarque": "L'adresse est 100-1255 (et non 1225). Ces coordonnées tombent près du Complexe Sodicor (1305) dans OpenStreetMap, à environ 100-200 m près. Le lien du site d'origine (event-location) donne une erreur 404."
+      "remarque": "L'adresse est 100-1255 (et non 1225). Ces coordonnées tombent près du Complexe Sodicor (1305) dans OpenStreetMap, à environ 100-200 m près. Le lien du site d'origine (event-location) donne une erreur 404.",
+      "categorie": "resto",
+      "horaire": "",
+      "reservation": null,
+      "telephone": "",
+      "ferme_jusqua": ""
+    },
+    {
+      "nom": "Le Plongeon",
+      "categorie": "microbrasserie",
+      "note": "Microbrasserie avec vraie cuisine (menu ardoise de saison). Ouvert à l'année; dernières commandes 1 h avant la fermeture.",
+      "adresse": "230, rue Principale, G0R 2W0",
+      "ville": "Saint-Cyrille-de-Lessard",
+      "lat": 47.0478832,
+      "lng": -70.2961651,
+      "site": "https://leplongeon.ca/",
+      "telephone": "418 224-0330",
+      "horaire": "Jeu. 15 h – 21 h · ven.–sam. 12 h – 21 h · dim. 12 h – 20 h · fermé lun.–mer.",
+      "reservation": null,
+      "ferme_jusqua": "",
+      "source_adresse": "Site officiel leplongeon.ca (coordonnées)",
+      "source_horaire": "Site officiel leplongeon.ca (« Heures d'ouverture – à partir de septembre 2026 »)",
+      "source_coords": "OpenStreetMap (Nominatim) : la rue Principale de Saint-Cyrille-de-Lessard (voie 457100486); le numéro 230 n'est pas dans OpenStreetMap",
+      "confirme": false,
+      "remarque": "Le 230 rue Principale n'est pas dans OpenStreetMap : la position est un point sur la rue Principale du village, pas l'emplacement exact (peut-être à quelques centaines de mètres)."
+    },
+    {
+      "nom": "Les Grands Bois",
+      "categorie": "microbrasserie",
+      "note": "Salon de dégustation dans l'ancien cinéma du village, 16 lignes de fût. Bouchées seulement.",
+      "adresse": "415, rue Tessier Est, G0A 3L0",
+      "ville": "Saint-Casimir (Portneuf)",
+      "lat": 46.658021,
+      "lng": -72.1364735,
+      "site": "https://lesgrandsbois.com/microbrasserie",
+      "telephone": "",
+      "horaire": "Dim., mer., jeu. 11 h – 19 h · ven.–sam. 11 h – 20 h · lun.–mar. 9 h – 16 h (fériés : peut changer)",
+      "reservation": null,
+      "ferme_jusqua": "",
+      "source_adresse": "Site officiel lesgrandsbois.com (pied de page)",
+      "source_horaire": "Site officiel lesgrandsbois.com/microbrasserie (Horaire Salon/Boutique)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Microbrasserie Les Grands Bois », 415 rue Tessier Est (nœud 5811251844)",
+      "confirme": true,
+      "remarque": ""
+    },
+    {
+      "nom": "Noctem",
+      "categorie": "microbrasserie",
+      "note": "Brouepub (Pub St-Roch) : bières maison et bouffe. Ouvert tous les jours.",
+      "adresse": "438, rue du Parvis, G1K 6H8",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8141681,
+      "lng": -71.2234294,
+      "site": "https://noctem.ca/",
+      "telephone": "581 742-7979",
+      "horaire": "Lun. 15 h – 2 h · mar.–dim. 11 h 30 – 2 h",
+      "reservation": null,
+      "ferme_jusqua": "",
+      "source_adresse": "Site officiel noctem.ca (Pub St-Roch)",
+      "source_horaire": "Site officiel noctem.ca (Pub St-Roch)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Noctem Artisans Brasseurs », 438 rue du Parvis (nœud 4350423291)",
+      "confirme": true,
+      "remarque": ""
+    },
+    {
+      "nom": "Brasseur des Monts",
+      "categorie": "microbrasserie",
+      "note": "Microbrasserie avec resto sur place (Repaire du Brasseur des Monts).",
+      "adresse": "3069, avenue Royale, G0A 3R0",
+      "ville": "Saint-Ferréol-les-Neiges",
+      "lat": 47.1073937,
+      "lng": -70.8633806,
+      "site": "https://brasseurdesmonts.ca/",
+      "telephone": "",
+      "horaire": "Incertain : le site affiche deux horaires qui se contredisent (tous les jours, ou fermé lun.–mer.). Écrire avant d'y aller.",
+      "reservation": {
+        "url": "mailto:charles@brasseurdesmonts.ca",
+        "via": "Courriel"
+      },
+      "ferme_jusqua": "",
+      "source_adresse": "Site officiel brasseurdesmonts.ca (pied de page)",
+      "source_horaire": "Site officiel brasseurdesmonts.ca : bloc « HORAIRE » (7 jours) et bloc « Heures d'ouverture » (fermé lun.–mer.) qui se contredisent",
+      "source_coords": "OpenStreetMap (Nominatim) : adresse 3069 avenue Royale, Saint-Ferréol-les-Neiges (nœud 1206517110)",
+      "confirme": true,
+      "remarque": ""
+    },
+    {
+      "nom": "ICI Microbrasserie",
+      "categorie": "microbrasserie",
+      "note": "Microbrasserie saisonnière (de la Saint-Jean à l'Action de grâce). Cuisine jusqu'à 21 h.",
+      "adresse": "51, rue Saint-Jean-Baptiste, G3Z 1M3",
+      "ville": "Baie-Saint-Paul",
+      "lat": 47.4434847,
+      "lng": -70.5080811,
+      "site": "https://icimicrobrasserie.com/",
+      "telephone": "418 760-8740",
+      "horaire": "En saison (26 juin à l'Action de grâce) : tous les jours 11 h – 23 h",
+      "reservation": null,
+      "ferme_jusqua": "2027-06-26",
+      "source_adresse": "Site officiel icimicrobrasserie.com",
+      "source_horaire": "Site officiel icimicrobrasserie.com (« 26 juin à l'Action de grâce, tous les jours de 11h à 23h, la cuisine ferme à 21h »)",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment du 51 rue Saint-Jean-Baptiste (voie 352827792)",
+      "confirme": true,
+      "remarque": "OpenStreetMap indique un autre commerce (Tony Charlo) à la même adresse; l'adresse vient du site officiel."
     }
   ]
 }
