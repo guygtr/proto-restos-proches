@@ -1,9 +1,11 @@
 {
   "mise_a_jour": "2026-10-18",
+  "enrichi_le": "2026-10-18",
+  "note_enrichissement": "Fiches enrichies à partir des sites officiels d'abord, puis Guide Michelin, La Presse, Le Soleil, Tastet, Tourisme Charlevoix, portneuf.ca, AMBQ. « non confirmé » = source secondaire ou contradiction; « introuvable » = aucune source trouvée. Blaxton Lebourgneuf exclu à la demande de Guy.",
   "restos": [
     {
       "nom": "Le Relais des Florent",
-      "note": "Bistro québécois sur le terrain de la Famille Migneron. Plats 40-45 $, truite au bleu. Le soir, du mercredi au samedi.",
+      "note": "Bistro de campagne (« bouchon de campagne ») sur le terrain de la Famille Migneron, par les chefs Hugue Dufour (ex-M. Wells, New York) et Clément Boivin. Entrées 20-25 $, plats 40-45 $; truite au bleu. Soir du mercredi au samedi (horaire non confirmé par le site officiel). Réservation requise le soir.",
       "adresse": "100, chemin du Migneron, G3Z 0L3",
       "ville": "Baie-Saint-Paul",
       "lat": 47.5032922,
@@ -14,10 +16,47 @@
       "confirme": false,
       "remarque": "Le « 100, chemin du Migneron » n'est pas dans OpenStreetMap. Les coordonnées sont celles de la fromagerie Migneron sur le même terrain : position approximative du restaurant.",
       "categorie": "resto",
-      "horaire": "",
-      "reservation": null,
-      "telephone": "",
-      "ferme_jusqua": ""
+      "horaire": "Mer.–sam. 17 h – 21 h · fermé dim.–mar. (non confirmé : horaire tiré de Tastet et Restoenligne, absent du site officiel). Carte de tapas en journée selon Tourisme Charlevoix : heures introuvables.",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC017748967935156F8/book",
+        "via": "Libro"
+      },
+      "telephone": "418 435-5692",
+      "ferme_jusqua": "",
+      "source_horaire": "Non confirmé — https://tastet.ca/critiques/le-relais-des-florent-lhospitalite-charlevoixienne-trouve-enfin-sa-table/ ; https://restoenligne.com/restaurants/home/le-relais-des-florent ; formule de jour : https://www.tourisme-charlevoix.com/fr/entreprises/relais-des-florent",
+      "type_cuisine": "Bistro québécois de terroir (Charlevoix), « bouchon de campagne sans prétention »; tapas à partager le jour",
+      "prix": {
+        "entrees": "20-25 $",
+        "plats": "40-45 $",
+        "source": "https://www.lapresse.ca/gourmand/restaurants/2026-10-17/charlevoix/garder-la-flamme-allumee-toute-l-annee.php",
+        "remarque": "Prix rapportés par La Presse (visite après la fête du Travail 2026), pas affichés sur le site officiel."
+      },
+      "specialites": [
+        "Truite au bleu (vivier sur place)",
+        "Poulet à la Kiev",
+        "Salade « Wedge » au Ciel de Charlevoix",
+        "Aguachile de thon aux fraises",
+        "Canard de la Ferme Basque, agneau de Charlevoix selon la saison",
+        "Fromages du Migneron",
+        "Tarte aux pacanes au Ciel de Charlevoix (pour deux)"
+      ],
+      "on_y_mange": "Cuisine complète (souper à la carte); tapas et dégustation de produits agrotouristiques le jour",
+      "ambiance": "Décor entre cabinet de curiosités et cabaret, table de billard-œuvre d'art, bar en chêne rouge massif, meubles rescapés de M. Wells; 42 places. Vins et spiritueux québécois et internationaux (vins du Québec en pots lyonnais et fillettes).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "Stationnement sur place mentionné par Tastet (non détaillé) — non confirmé",
+      "distinctions": "Aucune distinction trouvée pour le restaurant (ouvert le 4 juin 2026, après la sélection Michelin Québec 2026). Le chef Hugue Dufour a obtenu une étoile Michelin à New York (M. Wells).",
+      "statut": "Ouvert (La Presse, 17 oct. 2026 : l'équipe veut rester ouverte toute l'année et prévoit un brunch « très bientôt »). Tourisme Charlevoix indique toutefois « ouvert selon les saisons » (en anglais « Open seasonally »). Date de fermeture saisonnière : introuvable.",
+      "sources_details": {
+        "telephone": "https://relaisdesflorent.com/",
+        "reservation": "https://relaisdesflorent.com/ (bouton « Réservez une table »)",
+        "prix": "https://www.lapresse.ca/gourmand/restaurants/2026-10-17/charlevoix/garder-la-flamme-allumee-toute-l-annee.php",
+        "specialites": "https://www.lapresse.ca/gourmand/restaurants/2026-10-17/charlevoix/garder-la-flamme-allumee-toute-l-annee.php ; https://tastet.ca/critiques/le-relais-des-florent-lhospitalite-charlevoixienne-trouve-enfin-sa-table/",
+        "ambiance": "https://tastet.ca/critiques/le-relais-des-florent-lhospitalite-charlevoixienne-trouve-enfin-sa-table/ ; https://www.lapresse.ca/gourmand/restaurants/2026-10-17/charlevoix/garder-la-flamme-allumee-toute-l-annee.php",
+        "type_cuisine": "https://www.tourisme-charlevoix.com/fr/entreprises/relais-des-florent",
+        "statut": "https://www.lapresse.ca/gourmand/restaurants/2026-10-17/charlevoix/garder-la-flamme-allumee-toute-l-annee.php ; https://www.tourisme-charlevoix.com/fr/entreprises/relais-des-florent",
+        "ouverture": "https://tastet.ca/critiques/le-relais-des-florent-lhospitalite-charlevoixienne-trouve-enfin-sa-table/ (ouvert le 4 juin 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
     },
     {
       "nom": "Coquette",
@@ -39,11 +78,45 @@
       },
       "telephone": "418 702-1414",
       "ferme_jusqua": "",
-      "source_horaire": "Site officiel restaurantcoquette.ca (« Ouvert du mercredi au samedi — 17h à 22h »); lien Libro tiré du bouton Réserver du site"
+      "source_horaire": "Site officiel restaurantcoquette.ca (« Ouvert du mercredi au samedi — 17h à 22h »); lien Libro tiré du bouton Réserver du site",
+      "type_cuisine": "Buvette de quartier, cuisine moderne (Michelin : « Modern Cuisine »), petits plats de saison à partager axés sur les produits de la mer",
+      "prix": {
+        "plats": "7 $ à 32 $ (olives 7 $, huîtres fraîches 6 pour 18 $, huîtres garnies 6 pour 23 $, homard 32 $, morue 30 $; plateau de la mer au prix du marché)",
+        "desserts": "13-14 $",
+        "cocktails": "15-17 $",
+        "vins": "bouteilles de 50 $ à 250 $",
+        "michelin": "$$ (dépense modérée)",
+        "source": "https://drive.google.com/uc?export=download&id=16A3pkGARbL0kaqM7DjaRxJGWSxGrQe4u ; https://guide.michelin.com/ca/en/quebec/sainte-anne-de-beaupre_2434253/restaurant/coquette",
+        "remarque": "Menu « évolutif » : PDF lié depuis le site officiel, date non indiquée."
+      },
+      "specialites": [
+        "Huîtres fraîches et garnies",
+        "Homard, tomate, béarnaise",
+        "Pétoncle, kombucha de poire, livèche",
+        "Tartare de veau, couteau de mer, framboise",
+        "Coquetels signature (Joséphine, Jérôme, Laeticia…)"
+      ],
+      "on_y_mange": "Cuisine complète (petits plats à partager)",
+      "ambiance": "Ambiance conviviale inspirée des années 20; chef Marc-Antoine Minot, bar par David Desjardins; places au comptoir, en salle ou sur la terrasse.",
+      "terrasse": "Oui — terrasse sur le toit avec vue (sur la basilique selon Michelin)",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand, Guide Michelin Québec 2026 (nouveau en 2026)",
+      "courriel": "Coquette.resto@gmail.com",
+      "statut": "Ouvert (horaire identique sur le site officiel et sur la fiche Michelin).",
+      "sources_details": {
+        "prix": "https://drive.google.com/uc?export=download&id=16A3pkGARbL0kaqM7DjaRxJGWSxGrQe4u (lien « Découvrez notre menu » du site officiel)",
+        "type_cuisine": "https://restaurantcoquette.ca/ ; https://guide.michelin.com/ca/en/quebec/sainte-anne-de-beaupre_2434253/restaurant/coquette",
+        "ambiance": "https://restaurantcoquette.ca/",
+        "terrasse": "https://restaurantcoquette.ca/ ; https://guide.michelin.com/ca/en/quebec/sainte-anne-de-beaupre_2434253/restaurant/coquette",
+        "distinctions": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026 ; https://guide.michelin.com/ca/en/quebec/sainte-anne-de-beaupre_2434253/restaurant/coquette",
+        "horaire_confirmation": "https://guide.michelin.com/ca/en/quebec/sainte-anne-de-beaupre_2434253/restaurant/coquette",
+        "courriel": "https://restaurantcoquette.ca/"
+      },
+      "bieres": "sans objet (restaurant)"
     },
     {
       "nom": "Mano",
-      "note": "Pâtes fraîches, 18-22 $ le plat. Souvent plein.",
+      "note": "Pâtes fraîches faites sur place, plats 18-22 $, entrées 4-12 $. Du chef Étienne Nadeau (Ambre, Saison). Ouvert tous les jours 11 h 30 – 21 h. Souvent plein : réserver les soirs achalandés.",
       "adresse": "11, boulevard René-Lévesque Ouest, G1R 2A5",
       "ville": "Québec (Montcalm)",
       "lat": 46.8047169,
@@ -54,14 +127,57 @@
       "confirme": true,
       "remarque": "",
       "categorie": "resto",
-      "horaire": "",
-      "reservation": null,
-      "telephone": "",
-      "ferme_jusqua": ""
+      "horaire": "Lun.–dim. 11 h 30 – 21 h",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC017877713950BDF9E/book",
+        "via": "Libro"
+      },
+      "telephone": "581 909-2526",
+      "ferme_jusqua": "",
+      "source_horaire": "Site officiel https://manoresto.com/ et FAQ https://manoresto.com/faq",
+      "type_cuisine": "Italien — pâtes fraîches",
+      "prix": {
+        "entrees": "4-12 $",
+        "pates": "18-22 $",
+        "desserts": "11 $",
+        "source": "https://manoresto.com/menu ; https://www.lapresse.ca/gourmand/restaurants/2026-10-06/le-mano/un-resto-de-pates-fraiches-debarque-a-quebec.php"
+      },
+      "specialites": [
+        "Mafaldine bolognaise (recette de la mère du chef) 19 $",
+        "Mafaldine bolognaise blanche 19 $",
+        "Rigatoni à la vodka 18 $",
+        "Agnolotti mortadelle-pistaches 22 $",
+        "Agnolotti ricotta-épinards 20 $",
+        "Polpette 12 $",
+        "Tiramisu 11 $"
+      ],
+      "on_y_mange": "Cuisine complète; aussi pour emporter (commande en ligne) et livraison (Uber Eats)",
+      "ambiance": "Ambiance feutrée (La Presse); bières, vins (5 bouteilles à la fois, dont plusieurs québécoises) et cocktails italiens classiques.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "Pas de stationnement propre indiqué : la FAQ renvoie à la carte des stationnements du quartier Montcalm (https://www.quartiermontcalm.com/stationnement). Accessibilité : introuvable.",
+      "allergenes": "Les pâtes contiennent du gluten et des œufs (FAQ).",
+      "distinctions": "Aucune pour Mano (ouvert à l'automne 2026). Les autres restaurants du chef, Ambre et Saison, sont recommandés par le Guide Michelin (selon La Presse).",
+      "commande_en_ligne": {
+        "emporter": "https://mano.order-online.ai/",
+        "livraison": "https://www.ubereats.com/ca-fr/store/mano-pates-fraiches**/-9AUiskjUiy0t1rr-TYRog?diningMode=DELIVERY"
+      },
+      "courriel": "info@manoresto.com",
+      "statut": "Ouvert (nouvelle adresse, article La Presse du 6 oct. 2026).",
+      "sources_details": {
+        "horaire": "https://manoresto.com/ ; https://manoresto.com/faq",
+        "telephone": "https://manoresto.com/",
+        "reservation": "https://manoresto.com/ (bouton Réserver)",
+        "prix": "https://manoresto.com/menu",
+        "specialites": "https://manoresto.com/menu ; https://www.lapresse.ca/gourmand/restaurants/2026-10-06/le-mano/un-resto-de-pates-fraiches-debarque-a-quebec.php",
+        "ambiance": "https://www.lapresse.ca/gourmand/restaurants/2026-10-06/le-mano/un-resto-de-pates-fraiches-debarque-a-quebec.php",
+        "stationnement": "https://manoresto.com/faq",
+        "distinctions": "https://www.lapresse.ca/gourmand/restaurants/2026-10-06/le-mano/un-resto-de-pates-fraiches-debarque-a-quebec.php"
+      },
+      "bieres": "sans objet (restaurant)"
     },
     {
       "nom": "Beurre Baratté",
-      "note": "Bistro français-méditerranéen, petits plats à partager.",
+      "note": "Bistro « assez français » aux détours méditerranéens (Italie, Liban), petits plats à partager autour d'un grand îlot de cuisine ouverte. Ouvert depuis le 5 août 2026 dans l'ancien Patente et Machin.",
       "adresse": "82, rue Saint-Joseph Ouest",
       "ville": "Québec (Saint-Sauveur)",
       "lat": 46.8116114,
@@ -77,13 +193,42 @@
         "url": "https://widgets.libroreserve.com/WEB/QC017833706888D0578/book",
         "via": "Libro"
       },
-      "telephone": "",
+      "telephone": "418 529-7777",
       "ferme_jusqua": "",
-      "source_horaire": "Site officiel beurrebaratte.ca (section Réservations : « Du mercredi au samedi, dès 17h30 »); widget Libro du site"
+      "source_horaire": "Site officiel beurrebaratte.ca (section Réservations : « Du mercredi au samedi, dès 17h30 »); widget Libro du site",
+      "code_postal": "G1K 1W9 (non confirmé : code postal de l'ancien occupant Patente et Machin à la même adresse; absent du site officiel)",
+      "type_cuisine": "Bistro français-méditerranéen, cuisine du marché, petits plats à partager",
+      "prix": {
+        "plats": "introuvable",
+        "remarque": "Aucun prix publié : le menu du moment est affiché seulement sur Instagram (non consultable sans compte)."
+      },
+      "specialites": [
+        "Atayefs (crêpes libanaises) à la mousse de foies blonds de pintade",
+        "Flétan au beurre blanc aux pommettes",
+        "Porc sur labneh à l'aubergine",
+        "Truite au beurre blanc, spaghetti alla nerano (soirées d'essai)",
+        "Chou farci aux bleuets (dessert)"
+      ],
+      "on_y_mange": "Cuisine complète (petits plats à partager; menu change selon saisons et arrivages)",
+      "ambiance": "Cuisine ouverte autour d'un grand îlot (8 places face aux cuisiniers), salle crème et jaune doux, 35 places, deux services par soir; carte d'une cinquantaine de vins d'artisans (France et Italie surtout).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée (ouvert en août 2026). Critique très favorable de La Presse (22 sept. 2026).",
+      "courriel": "beurrebaratte@gmail.com",
+      "statut": "Ouvert.",
+      "sources_details": {
+        "telephone": "https://beurrebaratte.ca/",
+        "code_postal": "https://www.patenteetmachin.com/ (non confirmé)",
+        "type_cuisine": "https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/05/beurre-baratte-comme-un-empartyem-de-cuisine-autour-de-lilot-27BSKCAIXFH25GKWOEO7QW5KBI/ ; https://www.lapresse.ca/gourmand/restaurants/2026-09-22/quebec/fondre-pour-beurre-baratte.php",
+        "specialites": "https://www.lapresse.ca/gourmand/restaurants/2026-09-22/quebec/fondre-pour-beurre-baratte.php ; https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/05/beurre-baratte-comme-un-empartyem-de-cuisine-autour-de-lilot-27BSKCAIXFH25GKWOEO7QW5KBI/",
+        "ambiance": "https://www.lapresse.ca/gourmand/restaurants/2026-09-22/quebec/fondre-pour-beurre-baratte.php ; https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/05/beurre-baratte-comme-un-empartyem-de-cuisine-autour-de-lilot-27BSKCAIXFH25GKWOEO7QW5KBI/",
+        "menu": "https://beurrebaratte.ca/menu.html"
+      },
+      "bieres": "sans objet (restaurant)"
     },
     {
       "nom": "Le Bosquet",
-      "note": "Bistro français abordable, magret au jus de thym. Fermé le lundi.",
+      "note": "Gastro-bistro français, cuisine locale créative et cocktails. Plat signature : magret de canard au jus de thym (42 $). Menu midi 2 services à 25 $. Fermé le lundi.",
       "adresse": "56, boulevard René-Lévesque Ouest, G1R 2A3",
       "ville": "Québec (Montcalm)",
       "lat": 46.804706,
@@ -92,12 +237,49 @@
       "source_adresse": "Site officiel lebosquet-qc.ca",
       "source_coords": "OpenStreetMap (Nominatim) : bâtiment 54-56 boul. René-Lévesque Ouest",
       "confirme": true,
-      "remarque": "OpenStreetMap montre encore un autre nom de resto (Bistro La Goulette) à cette adresse. L'adresse vient du site officiel.",
+      "remarque": "OpenStreetMap montre encore La Goulette à cette adresse : c'est l'ancien restaurant des mêmes locaux (Le Soleil). L'adresse vient du site officiel.",
       "categorie": "resto",
-      "horaire": "",
-      "reservation": null,
-      "telephone": "",
-      "ferme_jusqua": ""
+      "horaire": "Midi : mar.–sam. 11 h 30 – 14 h · carte d'après-midi (entrées, desserts, boissons) : mar.–sam. 14 h – 17 h · soir : mar.–dim. 17 h – 22 h · fermé lun.",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC0177488668433F2BC/book",
+        "via": "Libro"
+      },
+      "telephone": "418 380-0245",
+      "ferme_jusqua": "",
+      "source_horaire": "Site officiel https://lebosquet-qc.ca/ (bloc Horaire) et https://lebosquet-qc.ca/le-midi-au-bosquet/",
+      "type_cuisine": "Gastro-bistro français, bistronomie québécoise (options véganes, végétariennes et sans gluten)",
+      "prix": {
+        "entrees": "12-19 $ (huîtres 3 $ l'unité ou 10 pour 25 $)",
+        "plats": "30-55 $ (gnocchis 30 $, magret 42 $, assiette de fruits de mer 55 $)",
+        "desserts": "12-24 $",
+        "menu_midi": "25 $ (2 services)",
+        "menu_degustation": "125 $ par personne + taxes + 15 % de frais de service, accords vins inclus (dernier jeudi du mois, 30 places)",
+        "source": "https://lebosquet-qc.ca/menu-2/ ; https://lebosquet-qc.ca/le-midi-au-bosquet/ ; https://lebosquet-qc.ca/menu-degustation-a-laveugle-2/"
+      },
+      "specialites": [
+        "Magret de canard poêlé, jus au thym, œuf de caille, purée de topinambours (plat signature)",
+        "Tataki de cerf, sauce forestière à l'amaretto québécois",
+        "Tartare de bœuf et moelle",
+        "« Oops » crème brûlée",
+        "Menu dégustation à l'aveugle (prochaines dates : 29 oct. et 26 nov. 2026)"
+      ],
+      "on_y_mange": "Cuisine complète (midi et soir)",
+      "ambiance": "Décor coloré et végétal (murs vert forêt), œuvres d'artistes québécois à vendre; 36 places, deux services le soir.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée.",
+      "courriel": "mack@lebosquet-qc.ca",
+      "statut": "Ouvert.",
+      "sources_details": {
+        "horaire": "https://lebosquet-qc.ca/ ; https://lebosquet-qc.ca/le-midi-au-bosquet/",
+        "telephone": "https://lebosquet-qc.ca/",
+        "reservation": "https://lebosquet-qc.ca/reservations/ (widget Libro)",
+        "prix": "https://lebosquet-qc.ca/menu-2/ ; https://lebosquet-qc.ca/le-midi-au-bosquet/ ; https://lebosquet-qc.ca/menu-degustation-a-laveugle-2/",
+        "specialites": "https://lebosquet-qc.ca/menu-2/ ; https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/12/le-bosquet-un-nouveau-resto-discret-au-coeur-francais-DJCOYJ7WVVHULGMQSUXQKC4TCQ/",
+        "ambiance": "https://lebosquet-qc.ca/a-propos/ ; https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/12/le-bosquet-un-nouveau-resto-discret-au-coeur-francais-DJCOYJ7WVVHULGMQSUXQKC4TCQ/",
+        "remarque_la_goulette": "https://www.lesoleil.com/vivre/dans-l-assiette/restaurants/2026/08/12/le-bosquet-un-nouveau-resto-discret-au-coeur-francais-DJCOYJ7WVVHULGMQSUXQKC4TCQ/"
+      },
+      "bieres": "sans objet (restaurant)"
     },
     {
       "nom": "Le Plongeon",
@@ -110,13 +292,57 @@
       "site": "https://leplongeon.ca/",
       "telephone": "418 224-0330",
       "horaire": "Jeu. 15 h – 21 h · ven.–sam. 12 h – 21 h · dim. 12 h – 20 h · fermé lun.–mer.",
-      "reservation": null,
+      "reservation": {
+        "url": "https://bookatable.10seat.com/restaurant/le-plongeon",
+        "via": "10seat"
+      },
       "ferme_jusqua": "",
       "source_adresse": "Site officiel leplongeon.ca (coordonnées)",
       "source_horaire": "Site officiel leplongeon.ca (« Heures d'ouverture – à partir de septembre 2026 »)",
       "source_coords": "OpenStreetMap (Nominatim) : la rue Principale de Saint-Cyrille-de-Lessard (voie 457100486); le numéro 230 n'est pas dans OpenStreetMap",
       "confirme": false,
-      "remarque": "Le 230 rue Principale n'est pas dans OpenStreetMap : la position est un point sur la rue Principale du village, pas l'emplacement exact (peut-être à quelques centaines de mètres)."
+      "remarque": "Le 230 rue Principale n'est pas dans OpenStreetMap : la position est un point sur la rue Principale du village, pas l'emplacement exact (peut-être à quelques centaines de mètres).",
+      "type_cuisine": "Microbrasserie rurale avec restaurant (menu ardoise de saison, bistro)",
+      "prix": {
+        "plats": "Entrées et petits plats 5-15 $, plats principaux 15-29 $, dessert 12 $",
+        "bieres": "introuvable",
+        "source": "https://leplongeon.ca/"
+      },
+      "bieres": {
+        "styles": "Lagers, ales anglaises, IPA, stout, bière au miel barriquée",
+        "en_fut": [
+          "Alice ? — lager blonde 4,8 %",
+          "Maya — ale au miel barriquée 6 mois en fût de cidre 5,8 %",
+          "Railleurs — roggenbier 4,8 %",
+          "Murfì Broun — session anglaise 3,8 %",
+          "Jos.93 — pale ale 5,8 %",
+          "Tina Louise — lager rousse 5,4 %",
+          "Grosse-Île — stout 4,2 %",
+          "Furotte — IPA 5,7 %"
+        ],
+        "source": "https://leplongeon.ca/ (« Menu Bières présentement en fût »)"
+      },
+      "specialites": [
+        "Gravlax de cerf aux épices boréales 15 $",
+        "Ris de veau et ratatouille 29 $",
+        "Rillettes de porc de madame Savoie 12 $",
+        "Club Plongeon au poulet mariné et bacon 19 $",
+        "Brownie à la bière Grosse-Île 12 $"
+      ],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Brasserie communautaire tenue par Denise Nahas et David Lacasse; salle de brassage visible du bar, section restaurant et salon; « beer garden » à l'avant.",
+      "terrasse": "Oui — terrasse et « beer garden » (mentionnés dans le journal de construction du site)",
+      "accessibilite_stationnement": "Stationnement « sur la terrasse (côté nord) »; sentier de motoneige à proximité (avis sur le site). Accessibilité : introuvable.",
+      "distinctions": "Aucune trouvée.",
+      "courriel": "info@leplongeon.ca",
+      "statut": "Ouvert à l'année (horaire « à partir de septembre 2026 »).",
+      "sources_details": {
+        "reservation": "https://leplongeon.ca/ (bouton « Réservez vos places »)",
+        "bieres": "https://leplongeon.ca/",
+        "prix": "https://leplongeon.ca/",
+        "ambiance": "https://leplongeon.ca/ ; https://baronmag.com/2025/05/ouverture-brasserie-le-plongeon/",
+        "stationnement": "https://leplongeon.ca/ (section Derniers articles)"
+      }
     },
     {
       "nom": "Les Grands Bois",
@@ -127,61 +353,196 @@
       "lat": 46.658021,
       "lng": -72.1364735,
       "site": "https://lesgrandsbois.com/microbrasserie",
-      "telephone": "",
+      "telephone": "418 266-3815",
       "horaire": "Dim., mer., jeu. 11 h – 19 h · ven.–sam. 11 h – 20 h · lun.–mar. 9 h – 16 h (fériés : peut changer)",
-      "reservation": null,
+      "reservation": {
+        "url": "https://mylightspeed.app/reservation/8845f7c3-716e-4ccd-8530-dca95e86af73/reservation",
+        "via": "Lightspeed"
+      },
       "ferme_jusqua": "",
       "source_adresse": "Site officiel lesgrandsbois.com (pied de page)",
       "source_horaire": "Site officiel lesgrandsbois.com/microbrasserie (Horaire Salon/Boutique)",
       "source_coords": "OpenStreetMap (Nominatim) : point « Microbrasserie Les Grands Bois », 415 rue Tessier Est (nœud 5811251844)",
       "confirme": true,
-      "remarque": ""
+      "remarque": "",
+      "type_cuisine": "Salon de dégustation de microbrasserie, bouchées locales (pas de cuisine complète)",
+      "prix": {
+        "bieres": "20 oz 8 $ · 13 oz 6,50 $ · 11 oz 5 $ · 9 oz 3,75 $ · plateau découverte 4 × 6 oz 12 $ · sans alcool 473 ml 7 $",
+        "bouchees": "2 $ à 13,50 $ (pizza romaine 8 $, sandwich Mikatri 7,50 $)",
+        "assiette_a_partager": "24 $",
+        "apero_pour_2_avant_spectacle": "45 $ taxes et pourboire inclus (sur réservation via la billetterie)",
+        "source": "https://bit.ly/m/salon-lesgrandsbois (menu PDF « 2026-10-08 MENU WEB » : https://documents.bitly.site/Bn89fPJEFAv/a4e70556-4808-f674-f553-ca8c56c07f66/2026-10-08%20MENU%20WEB.pdf) ; https://lesgrandsbois.com/microbrasserie"
+      },
+      "bieres": {
+        "styles": "Bières de soif : pilsners, lagers, kölsch, IPA, sours, stout, grisette, brown ale; 16 lignes de fût (maison, invitées, brassins surprises)",
+        "phares": [
+          "St-Caz Pilsner 4 %",
+          "Giorgio — pilsner italienne 5 %",
+          "Impérial Gros Tigre — session IPA 4 %",
+          "Monte Carlo — NEIPA 5,5 %",
+          "Hully Gully — sour pale ale 3,8 %",
+          "L'île de la nuit — dry stout 4,5 %",
+          "Superpause — IPA louvaine 5 %"
+        ],
+        "sans_alcool": "Petite Pause IPA / Lime",
+        "speciales": "Funk Cosmique (saison Brett), Jazz Fusion (grisette Brett)",
+        "source": "https://bit.ly/m/salon-lesgrandsbois (menu PDF « 2026-10-08 MENU WEB » : https://documents.bitly.site/Bn89fPJEFAv/a4e70556-4808-f674-f553-ca8c56c07f66/2026-10-08%20MENU%20WEB.pdf) ; https://lesgrandsbois.com/microbrasserie"
+      },
+      "specialites": [
+        "Assiette à partager (tartinade, craquelins, pepperonis, œufs de caille, focaccia, olives, trempette argousier) 24 $",
+        "Minis pepperonis à la bière 6,50 $",
+        "Pizza romaine au fromage en grains des Grondines 8 $"
+      ],
+      "on_y_mange": "Bouchées et petits plats à partager seulement (produits portneuvois)",
+      "ambiance": "Ancien cinéma art déco de 1946 : microbrasserie au rez-de-chaussée, salle de spectacles (Théâtre des Grands Bois) à l'étage; café de spécialité et options sans alcool. Salon ouvert plus tard les soirs de spectacle.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "introuvable",
+      "courriel": "info@lesgrandsbois.com",
+      "statut": "Ouvert (menu daté du 8 oct. 2026). Spectacles à venir : 13 nov., 28 nov. 2026.",
+      "sources_details": {
+        "telephone": "https://portneuf.ca/culture-de-saveurs/ou-acheter/les-restaurants-casse-croutes-et-bars-laitiers/les-grands-bois-salon-de-degustation/ (absent du site officiel)",
+        "reservation": "https://lesgrandsbois.com/microbrasserie (lien Réservations)",
+        "prix": "https://bit.ly/m/salon-lesgrandsbois (menu PDF « 2026-10-08 MENU WEB » : https://documents.bitly.site/Bn89fPJEFAv/a4e70556-4808-f674-f553-ca8c56c07f66/2026-10-08%20MENU%20WEB.pdf)",
+        "bieres": "https://bit.ly/m/salon-lesgrandsbois (menu PDF « 2026-10-08 MENU WEB » : https://documents.bitly.site/Bn89fPJEFAv/a4e70556-4808-f674-f553-ca8c56c07f66/2026-10-08%20MENU%20WEB.pdf) ; https://lesgrandsbois.com/microbrasserie",
+        "ambiance": "https://lesgrandsbois.com/microbrasserie ; https://portneuf.ca/culture-de-saveurs/ou-acheter/les-restaurants-casse-croutes-et-bars-laitiers/les-grands-bois-salon-de-degustation/"
+      }
     },
     {
       "nom": "Noctem",
       "categorie": "microbrasserie",
-      "note": "Brouepub (Pub St-Roch) : bières maison et bouffe. Ouvert tous les jours.",
+      "note": "Brouepub (Pub St-Roch) : bières maison et bouffe de pub créative. Deux médailles d'or à la Canada Beer Cup 2025. Horaire contradictoire sur le site : vérifier les heures de fermeture.",
       "adresse": "438, rue du Parvis, G1K 6H8",
       "ville": "Québec (Saint-Roch)",
       "lat": 46.8141681,
       "lng": -71.2234294,
       "site": "https://noctem.ca/",
       "telephone": "581 742-7979",
-      "horaire": "Lun. 15 h – 2 h · mar.–dim. 11 h 30 – 2 h",
-      "reservation": null,
+      "horaire": "Contradictoire sur le site officiel — accueil : lun. 15 h – 2 h · mar.–dim. 11 h 30 – 2 h; page « Joindre le pub » : lun. 15 h – 23 h · mar.–mer. 11 h 30 – 23 h · jeu.–sam. 11 h 30 – 1 h · dim. 11 h 30 – 23 h. Ouverture confirmée (lun. 15 h, autres jours 11 h 30); heure de fermeture non confirmée.",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC014443292109/book",
+        "via": "Libro"
+      },
       "ferme_jusqua": "",
       "source_adresse": "Site officiel noctem.ca (Pub St-Roch)",
-      "source_horaire": "Site officiel noctem.ca (Pub St-Roch)",
+      "source_horaire": "https://www.noctem.ca/ (bloc Pub St-Roch) vs https://www.noctem.ca/pages/joindre-le-pub",
       "source_coords": "OpenStreetMap (Nominatim) : point « Noctem Artisans Brasseurs », 438 rue du Parvis (nœud 4350423291)",
       "confirme": true,
-      "remarque": ""
+      "remarque": "",
+      "type_cuisine": "Brouepub — cuisine de pub créative (options véganes et sans gluten)",
+      "prix": {
+        "entrees": "11-17 $",
+        "plats": "22-32 $",
+        "plateau_a_partager": "26 $",
+        "desserts": "9-11 $",
+        "bieres": "introuvable",
+        "source": "https://www.noctem.ca/pages/menu"
+      },
+      "bieres": {
+        "styles": "IPA et NEIPA houblonnées, lagers (tchèque, mexicaine), saison, sours, witbier",
+        "en_fut_7_oct": [
+          "Catnip — NEIPA 7,5 %",
+          "Crazy Cat Lager — pils tchèque 5 %",
+          "Plantation — NE pale ale 5,5 %",
+          "Herbosophie — saison aux herbes 6 %",
+          "Pina Chalada — sour smoothie 6,5 %",
+          "El Gato Lime — lager mexicaine 4,5 %",
+          "Casper — ESB 6 %"
+        ],
+        "source": "https://www.noctem.ca/pages/untappd (menu Untappd for Business, mis à jour le 7 oct.)"
+      },
+      "specialites": [
+        "Burger Noctem (porc et bœuf, raclé de la Fromagerie des Grondines) 27 $",
+        "Sandwich du Parvis 22 $",
+        "Épaule de porc confite 28 $",
+        "Jarret d'agneau 32 $",
+        "Jerky maison fumé à la bière 6 $"
+      ],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Pub de quartier sur le Parvis de Saint-Roch, univers de chats. Salon de dégustation aussi à la Brasserie St-Malo (8-1095 rue Vincent-Massey, G1N 1N2; jeu.–ven. 9 h – 18 h, sam. 11 h – 17 h).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Canada Beer Cup 2025 : médaille d'or en Gose (Calaca Citron) et en Ale forte (Choses sérieuses)",
+      "courriel": "info@noctem.ca",
+      "statut": "Ouvert.",
+      "sources_details": {
+        "horaire": "https://www.noctem.ca/ ; https://www.noctem.ca/pages/joindre-le-pub",
+        "reservation": "https://www.noctem.ca/pages/libro",
+        "prix": "https://www.noctem.ca/pages/menu (images du menu)",
+        "bieres": "https://www.noctem.ca/pages/untappd (menu Untappd for Business, mis à jour le 7 oct.)",
+        "distinctions": "https://www.noctem.ca/blogs/les-chroniques-felines/deux-medailles-dor-a-la-canada-beer-cup",
+        "brasserie_st_malo": "https://www.noctem.ca/"
+      }
     },
     {
       "nom": "Brasseur des Monts",
       "categorie": "microbrasserie",
-      "note": "Microbrasserie avec resto sur place (Repaire du Brasseur des Monts).",
+      "note": "Microbrasserie et resto (Repaire du Brasseur des Monts) au pied du Mont-Sainte-Anne : burgers, poutines, ribs et classiques de pub, plats 15-39 $. Horaire contradictoire sur le site : appeler avant.",
       "adresse": "3069, avenue Royale, G0A 3R0",
       "ville": "Saint-Ferréol-les-Neiges",
       "lat": 47.1073937,
       "lng": -70.8633806,
       "site": "https://brasseurdesmonts.ca/",
-      "telephone": "",
+      "telephone": "418 476-2526 (non confirmé : absent du site officiel, tiré de l'AMBQ)",
       "horaire": "Incertain : le site affiche deux horaires qui se contredisent (tous les jours, ou fermé lun.–mer.). Écrire avant d'y aller.",
       "reservation": {
-        "url": "mailto:charles@brasseurdesmonts.ca",
-        "via": "Courriel"
+        "url": "https://widgets.libroreserve.com/WEB/QC016807952135/book",
+        "via": "Libro (groupes : charles@brasseurdesmonts.ca)"
       },
       "ferme_jusqua": "",
       "source_adresse": "Site officiel brasseurdesmonts.ca (pied de page)",
       "source_horaire": "Site officiel brasseurdesmonts.ca : bloc « HORAIRE » (7 jours) et bloc « Heures d'ouverture » (fermé lun.–mer.) qui se contredisent",
       "source_coords": "OpenStreetMap (Nominatim) : adresse 3069 avenue Royale, Saint-Ferréol-les-Neiges (nœud 1206517110)",
       "confirme": true,
-      "remarque": ""
+      "remarque": "",
+      "type_cuisine": "Resto de microbrasserie, cuisine de pub et classiques québécois (burgers, poutines, ribs)",
+      "prix": {
+        "entrees": "6-23 $",
+        "burgers": "15-23 $ (servis avec frites et salade)",
+        "plats": "20-39 $ (short ribs braisés 39 $, bavette 29 $, fish 'n' chips 24 $)",
+        "desserts": "8-10 $",
+        "bieres": "introuvable",
+        "source": "https://brasseurdesmonts.ca/menu/"
+      },
+      "bieres": {
+        "styles": "IPA de tous genres (NEIPA, West Coast, double IPA, smash, nano IPA), kölsch, blanche, gose, rousse, lager mexicaine",
+        "phares": [
+          "La 360 — NEIPA 6,6 %",
+          "La Sept Chutes — West Coast IPA 7,3 %",
+          "La 1837 — double IPA aux ananas 8,2 %",
+          "La Ruisseau Rouge — rousse 5 %",
+          "Cerf Albinos — blanche 4,8 %",
+          "Gose with the flow — gose argousier et lime 3 %",
+          "Nano Ki-Ni — nano IPA 2,5 %"
+        ],
+        "source": "https://brasseurdesmonts.ca/ (section « Découvrir nos bières »)"
+      },
+      "specialites": [
+        "Short ribs braisés 39 $",
+        "Baby back ribs 28 $",
+        "Poutine Choub Spécial 21 $",
+        "Burger Spicy BDM 23 $",
+        "Pouding chômeur 8 $"
+      ],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "Ambiance après-ski et plein air, sans code vestimentaire; bar de dégustation et tables avec vue sur la salle de brassage; visites de la brasserie pour groupes de 4 à 20.",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "introuvable",
+      "courriel": "charles@brasseurdesmonts.ca (resto, groupes, réservations)",
+      "statut": "Ouvert selon le site, mais l'horaire reste contradictoire (voir horaire).",
+      "sources_details": {
+        "telephone": "https://ambq.ca/fr/microbrasserie/brasseurs-des-monts (non confirmé)",
+        "reservation": "https://brasseurdesmonts.ca/resto-repaire/ (widget Libro du bouton RÉSERVER)",
+        "prix": "https://brasseurdesmonts.ca/menu/",
+        "bieres": "https://brasseurdesmonts.ca/ (section « Découvrir nos bières »)",
+        "ambiance": "https://brasseurdesmonts.ca/resto-repaire/ ; https://brasseurdesmonts.ca/microbrasserie/"
+      }
     },
     {
       "nom": "ICI Microbrasserie",
       "categorie": "microbrasserie",
-      "note": "Microbrasserie saisonnière (de la Saint-Jean à l'Action de grâce). Cuisine jusqu'à 21 h.",
+      "note": "Microbrasserie saisonnière (de la Saint-Jean à l'Action de grâce), 4 bières de soif vendues seulement sur place, grande terrasse, sans réservation. Fermée pour la saison depuis l'Action de grâce.",
       "adresse": "51, rue Saint-Jean-Baptiste, G3Z 1M3",
       "ville": "Baie-Saint-Paul",
       "lat": 47.4434847,
@@ -189,13 +550,47 @@
       "site": "https://icimicrobrasserie.com/",
       "telephone": "418 760-8740",
       "horaire": "En saison (26 juin à l'Action de grâce) : tous les jours 11 h – 23 h",
-      "reservation": null,
+      "reservation": {
+        "url": null,
+        "via": "Aucune réservation (sans réservation)"
+      },
       "ferme_jusqua": "2027-06-26",
       "source_adresse": "Site officiel icimicrobrasserie.com",
       "source_horaire": "Site officiel icimicrobrasserie.com (« 26 juin à l'Action de grâce, tous les jours de 11h à 23h, la cuisine ferme à 21h »)",
       "source_coords": "OpenStreetMap (Nominatim) : bâtiment du 51 rue Saint-Jean-Baptiste (voie 352827792)",
       "confirme": true,
-      "remarque": "OpenStreetMap indique un autre commerce (Tony Charlo) à la même adresse; l'adresse vient du site officiel."
+      "remarque": "OpenStreetMap indique encore Tony Charlo à cette adresse : c'est l'ancien commerce, devenu ICI Microbrasserie en 2026 (Le Charlevoisien). L'adresse vient du site officiel. ferme_jusqua = 2027-06-26 est une estimation (le site dit « 26 juin » dans l'horaire mais « de la Saint-Jean » (24 juin) dans la FAQ).",
+      "type_cuisine": "Microbrasserie avec menu pub (bières, cocktails et bouffe; alcools 100 % Charlevoix)",
+      "prix": {
+        "plats": "introuvable",
+        "bieres": "introuvable",
+        "remarque": "Le site indique « Lien à venir » pour le menu."
+      },
+      "bieres": {
+        "styles": "4 bières de soif saisonnières, exclusives à la brasserie",
+        "liste": [
+          "Blonde d'ici — lager sèche et légère",
+          "Blanche d'ici — witbier à la camomille (Ferme à Ciel) et au miel (Hydromel Charlevoix)",
+          "Sure d'ici — style Berliner Weisse à la framboise",
+          "IPA d'ici — hazy IPA (pêche, mangue, agrumes)"
+        ],
+        "source": "https://icimicrobrasserie.com/"
+      },
+      "specialites": "introuvable",
+      "on_y_mange": "Oui — cuisine jusqu'à 21 h (détail du menu introuvable)",
+      "ambiance": "Grande terrasse; ingrédients locaux autant que possible. Par Anthony Dufour et Alexandre Côté, dans l'ancien Tony et Charlo.",
+      "terrasse": "Oui — « une belle grande terrasse »",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "introuvable",
+      "courriel": "info@icimicrobrasserie.com",
+      "statut": "Fermée pour la saison (ouverture jusqu'à l'Action de grâce, le 12 oct. 2026). Réouverture prévue vers la fin juin 2027 : date exacte non confirmée.",
+      "sources_details": {
+        "bieres": "https://icimicrobrasserie.com/ (section Nos bières)",
+        "reservation": "https://icimicrobrasserie.com/ (FAQ : « Nous ne prenons pas de réservations »)",
+        "terrasse": "https://icimicrobrasserie.com/ (FAQ)",
+        "ambiance": "https://icimicrobrasserie.com/ ; https://www.lecharlevoisien.com/2026/05/28/tony-et-charlo-devient-ici-microbrasserie/",
+        "statut": "https://icimicrobrasserie.com/"
+      }
     }
   ]
 }

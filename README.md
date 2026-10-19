@@ -5,7 +5,7 @@ Une petite page web pour le cell qui liste nos restos et microbrasseries à essa
 
 Un filtre en haut permet d'afficher **Tout** (par défaut), seulement les **Restos** ou seulement les **Microbrasseries**, toujours triés par distance. Lien direct possible : `?filtre=microbrasserie` ou `?filtre=resto`.
 
-Un endroit saisonnier fermé affiche un badge **Fermé jusqu'au …** (champ `ferme_jusqua`).
+Un endroit saisonnier fermé affiche un badge **Fermée pour la saison · réouverture prévue vers le …** (champ `ferme_jusqua`).
 
 Si tu refuses la localisation (ou si elle échoue), la liste s'affiche quand même, non triée, avec un message.
 
@@ -35,6 +35,16 @@ Toutes les données sont dans `restos.json`. Pour ajouter un resto, copie une fi
 | `reservation` | objet ou `null` | `{ "url": "…", "via": "Libro" }` : lien de réservation et service utilisé |
 | `telephone` | texte | Numéro affiché (bouton Appeler), vide si inconnu |
 | `ferme_jusqua` | date | `AAAA-MM-JJ` : fermé jusqu'à cette date (badge rouge), vide sinon |
+| `code_postal` | texte | Code postal à part si non confirmé (badge ⚠️ « non confirmé » s'il contient « non confirmé ») |
+| `type_cuisine` | texte | Type de cuisine (non affiché) |
+| `prix` | objet | Fourchettes de prix (`entrees`, `plats`, `pates`, `desserts`, `burgers`, `bieres`, `bouchees`…, plus `source`, `remarque`). Affiché en puces (max 4); « introuvable » est masqué |
+| `specialites` | liste ou texte | Plats phares : les 3 premiers sont affichés |
+| `bieres` | objet ou texte | Bières (`styles`, une liste `en_fut`/`phares`/`liste`…, `source`) : 3 premières affichées; « sans objet » masqué |
+| `ambiance`, `terrasse`, `on_y_mange`, `distinctions`, `accessibilite_stationnement`, `courriel` | texte | Infos complémentaires (non affichées pour garder les cartes lisibles) |
+| `statut` | texte | Ouvert / fermé pour la saison, affiché sur la carte |
+| `sources_details` | objet | Source de chaque champ enrichi |
+
+Un « non confirmé », « contradictoire » ou « incertain » dans `horaire`, `telephone` ou `code_postal` affiche un badge jaune **⚠️ non confirmé**.
 | `source_horaire` | texte | D'où vient l'horaire |
 | `source_adresse` | texte | D'où vient l'adresse (site officiel, etc.) |
 | `source_coords` | texte | D'où viennent les coordonnées (OpenStreetMap/Nominatim, lien Google Maps du site, etc.) |

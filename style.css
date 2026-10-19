@@ -164,3 +164,11 @@ h1 { margin: 0; font-size: var(--t-xl); font-weight: 800; letter-spacing: -.02em
 @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important; transition: none !important; } }
 
 .pied .credit{margin-top:.75rem;opacity:.85;font-size:.8rem;line-height:1.5;text-align:center}
+
+/* Fiches enrichies */
+.puce.prix { color: var(--c-text); font-weight: 500; } .puce.prix b { color: var(--c-text-muted); font-weight: 600; }
+.infos { display: grid; gap: 6px; margin-top: var(--s-2); }
+.info { margin: 0; display: grid; grid-template-columns: 6.5rem 1fr; gap: 8px; font-size: var(--t-xs); line-height: 1.4; }
+.info b { color: var(--c-text-muted); font-weight: 600; } .info a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.info.st-ferme span { color: var(--c-closed); font-weight: 700; }
+.badge-nc { display: inline-block; margin-left: 4px; padding: 1px 7px; border-radius: var(--r-pill); font-size: .7rem; font-weight: 700; color: #1a1300; background: var(--c-warn, #fcd34d); white-space: nowrap; vertical-align: middle; }

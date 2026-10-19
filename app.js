@@ -25,6 +25,24 @@ function esc(s) { return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&am
 function aCoords(r) { return Number.isFinite(r.lat) && Number.isFinite(r.lng); }
 function estFerme(r) { return !!r.ferme_jusqua && aujourdhui() < r.ferme_jusqua; }
 
+
+const NC = /non confirm|contradictoire|incertain/i;
+const vide = (v) => v == null || v === '' || /^(introuvable|sans objet)/i.test(String(v).trim());
+const PRIX_LBL = { entrees: 'Entrées', plats: 'Plats', pates: 'Pâtes', desserts: 'Desserts', burgers: 'Burgers', bieres: 'Bières', bouchees: 'Bouchées', menu_midi: 'Midi', cocktails: 'Cocktails' };
+function court(t, n = 48) { t = String(t).replace(/\s*\(.*?\)/g, '').trim(); return t.length > n ? t.slice(0, n - 1) + '…' : t; }
+function prixPuces(p) {
+  if (!p || typeof p !== 'object') return '';
+  return Object.entries(PRIX_LBL).filter(([k]) => !vide(p[k])).slice(0, 4)
+    .map(([k, l]) => `<span class="puce prix"><b>${l}</b> ${esc(court(p[k], 40))}</span>`).join('');
+}
+function liste3(v) {
+  if (Array.isArray(v)) return v.slice(0, 3);
+  if (v && typeof v === 'object') { const a = Object.values(v).find(Array.isArray); return a ? a.slice(0, 3) : []; }
+  return [];
+}
+function ligne(lbl, html, cls = '') { return html ? `<p class="info ${cls}"><b>${lbl}</b><span>${html}</span></p>` : ''; }
+const badgeNC = '<span class="badge-nc">⚠️ non confirmé</span>';
+
 function statut(msg, type) { const el = $('#statut'); el.textContent = msg; el.className = 'statut ' + (type || ''); }
 
 let toastTimer;
@@ -44,10 +62,20 @@ function carte(r, i) {
   const ferme = estFerme(r);
   const puces = [
     `<span class="puce ${r.categorie === 'microbrasserie' ? 'micro' : 'resto'}"><span aria-hidden="true">${cat.icone}</span> ${cat.label}</span>`,
-    ferme ? `<span class="puce ferme">Fermé jusqu'au ${fmtDate.format(jour(r.ferme_jusqua))}</span>` : '',
+    ferme ? `<span class="puce ferme">Fermée pour la saison · réouverture prévue vers le ${fmtDate.format(jour(r.ferme_jusqua))}</span>` : '',
     !r.confirme ? `<span class="puce">⚠️ Position à confirmer</span>` : ''
   ].join('');
-  const horaire = r.horaire ? `<p class="horaire"><b>Horaire</b><span>${esc(r.horaire)}</span></p>` : '';
+  const horaire = r.horaire ? `<p class="horaire"><b>Horaire${NC.test(r.horaire) ? ' ' + badgeNC : ''}</b><span>${esc(r.horaire)}</span></p>` : '';
+  const telNum = r.telephone ? r.telephone.replace(/\s*\(.*$/, '') : '';
+  const infos = [
+    r.statut ? ligne('Statut', esc(court(r.statut, 110)), ferme ? 'st-ferme' : '') : '',
+    r.code_postal && NC.test(r.code_postal) ? ligne('Code postal', `${esc(r.code_postal.replace(/\s*\(.*$/, ''))} ${badgeNC}`) : '',
+    telNum ? ligne('Téléphone', `<a href="tel:${esc(telNum.replace(/\D/g, ''))}">${esc(telNum)}</a>${NC.test(r.telephone) ? ' ' + badgeNC : ''}`) : '',
+    r.reservation?.url ? ligne('Réservation', `<a href="${esc(r.reservation.url)}" target="_blank" rel="noopener">${esc(r.reservation.via || 'En ligne')} ↗</a>`) : '',
+    ligne('Plats phares', liste3(r.specialites).map((x) => esc(court(x))).join(' · ')),
+    ligne('Bières phares', liste3(r.bieres).map((x) => esc(court(x.split(' — ')[0], 30))).join(' · '))
+  ].join('');
+  const prix = prixPuces(r.prix);
   const avert = !r.confirme && r.remarque ? `<p class="avert">⚠️ ${esc(r.remarque)}</p>` : '';
   const nom = esc(r.nom);
   const actions = [
@@ -61,7 +89,9 @@ function carte(r, i) {
     <div class="puces">${puces}</div>
     <p class="adresse">${esc(r.adresse)}</p>
     <p class="note">${esc(r.note)}</p>
+    ${prix ? `<div class="puces prix-l">${prix}</div>` : ''}
     ${horaire}
+    <div class="infos">${infos}</div>
     ${avert}
     <div class="actions">${actions}</div>
   </article>`;
