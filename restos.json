@@ -100,24 +100,6 @@
       "ferme_jusqua": ""
     },
     {
-      "nom": "Blaxton Lebourgneuf",
-      "note": "Pub & grill. Réservation sur Libro.",
-      "adresse": "100-1255, boulevard Lebourgneuf, G2K 0M6",
-      "ville": "Québec (Lebourgneuf)",
-      "lat": 46.835849,
-      "lng": -71.296216,
-      "site": "https://blaxton.com/restaurants/",
-      "source_adresse": "Site officiel blaxton.com (pages Restaurants et Nous joindre)",
-      "source_coords": "Fiche publique exa.ai pour le 1255 boul. Lebourgneuf; OpenStreetMap n'a pas ce numéro",
-      "confirme": false,
-      "remarque": "L'adresse est 100-1255 (et non 1225). Ces coordonnées tombent près du Complexe Sodicor (1305) dans OpenStreetMap, à environ 100-200 m près. Le lien du site d'origine (event-location) donne une erreur 404.",
-      "categorie": "resto",
-      "horaire": "",
-      "reservation": null,
-      "telephone": "",
-      "ferme_jusqua": ""
-    },
-    {
       "nom": "Le Plongeon",
       "categorie": "microbrasserie",
       "note": "Microbrasserie avec vraie cuisine (menu ardoise de saison). Ouvert à l'année; dernières commandes 1 h avant la fermeture.",
