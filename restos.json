@@ -1179,6 +1179,260 @@
         "historique": "https://hrimag.com/Emporium-Microbrasserie-Pizzas-houblons-et-esprit-steampunk",
         "popularite": "https://www.quebec-cite.com/fr/restaurants-quebec/liste-microbrasseries ; https://www.bonjourquebec.com/en/listing/restaurants/emporium-microbrasserie/0qrh ; https://voilaquebec.com/listing/emporium-microbrasserie/ ; https://guiderestosquebec.com/en/listing/restaurant/emporium-microbrasserie/ ; https://www.restoquebec.ca/resto/emporium-microbrasserie-quebec/13739/fr/"
       }
+    },
+    {
+      "nom": "Honō Izakaya",
+      "categorie": "resto",
+      "note": "Taverne japonaise de la rue Saint-Joseph : yakitoris grillés sur la flamme, petits plats nippons, carte de sakés et cocktails réputée. Bib Gourmand Michelin.",
+      "adresse": "670, rue Saint-Joseph Est, G1K 3B9",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8154212,
+      "lng": -71.2212232,
+      "site": "https://izakaya.honorestos.com/",
+      "source_adresse": "Code postal G1K 3B9 : liste Michelin Québec 2026 (michelin.com) et fiche Michelin; le site officiel (application JS) n'affiche ni adresse ni code postal lisibles → code postal non vérifié sur le site officiel. OSM/Nominatim calcule G1K 3A7 (non retenu).",
+      "source_coords": "OpenStreetMap (Nominatim) : point du restaurant « Hono Izakaya » (node 7059089885) — point d'intérêt, pas le bâtiment ni une ligne de numéros",
+      "confirme": true,
+      "remarque": "Petite sœur : Honō Ramen (autre adresse, non retenue).",
+      "horaire": "Lun., mer.–dim. 17 h 30 – 22 h 30 · fermé mar.",
+      "source_horaire": "Site officiel (données de l'application honorestos.com, bloc « Heures d'ouverture »); identique à la fiche Michelin",
+      "telephone": "418 524-2888 (fiche Michelin; non confirmé sur le site officiel)",
+      "reservation": {
+        "url": "https://www.opentable.ca/r/hono-izakaya-quebec",
+        "via": "OpenTable (fiche OpenTable; lien depuis le site non confirmé)"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Izakaya japonais",
+      "prix": {
+        "budget": "Michelin : $$ (dépense modérée); OpenTable : 31 à 50 $ par personne",
+        "remarque": "Le menu du site officiel est une version datée « 2022-01-02 – V6 » : prix actuels non confirmés, donc non repris.",
+        "source": "https://guide.michelin.com/ca/en/quebec/quebec_2434166/restaurant/hono-izakaya ; https://www.opentable.ca/r/hono-izakaya-quebec"
+      },
+      "specialites": [
+        "Yakitoris : hauts de cuisse de poulet, saumon mariné miso-saké, cœur de canard confit, poireau-yuzu (Visiter Québec)",
+        "Okonomiyaki, dumplings (Tastet)",
+        "Tempura, sashimi, tataki, temaki (Visiter Québec)"
+      ],
+      "on_y_mange": "Souper seulement",
+      "ambiance": "Décor épuré et moderne, ambiance animée; carte de sakés et cocktails (mixologue Julien Vézina, Mixologue de l'année aux Lauriers 2023 selon Tastet).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Bib Gourmand Michelin 2025 et 2026 (« deuxième année consécutive », Tastet; liste Bib 2026 Michelin)",
+      "statut": "Ouvert (horaire en ligne, Bib 2026).",
+      "courriel": "introuvable",
+      "sources_details": {
+        "horaire": "https://izakaya.honorestos.com/ (bundle https://honorestos.com/dist/js/app.8ee0bc1a.js)",
+        "michelin": "https://guide.michelin.com/ca/en/quebec/quebec_2434166/restaurant/hono-izakaya ; https://www.michelin.com/en/publications/products-and-services/michelin-guide-quebec-2026",
+        "recommandation": "https://guide.michelin.com/ca/en/quebec/restaurants/bib-gourmand ; https://tastet.ca/listes/meilleurs-restaurants-de-quebec/ ; https://www.quebec-cite.com/fr/restaurants-quebec/guide-michelin ; https://tastet.ca/critiques/hono-izakaya-resto-quebec/"
+      },
+      "pourquoi_populaire": "Bib Gourmand Michelin 2026; Tastet, restaurants incontournables de Québec 2026; Visiter Québec (quebec-cite.com), page Guide Michelin : « adresse désormais incontournable de la rue Saint-Joseph ».",
+      "bieres": "sans objet (restaurant)",
+      "code_postal": "G1K 3B9 (non confirmé : Michelin; absent du site officiel; OSM donne G1K 3A7)"
+    },
+    {
+      "nom": "Kundah Hôtel",
+      "categorie": "resto",
+      "note": "Cuisine indienne revisitée à la québécoise, beaucoup de plats végétariens, bar à cocktails. Sélection Michelin. Pas d'hôtel : c'est le nom du resto.",
+      "adresse": "325, rue de la Couronne, G1K 6E7",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8151427,
+      "lng": -71.2251799,
+      "site": "https://kundahhotel.com/",
+      "source_adresse": "Site officiel (pied de page : « 325, rue de la Couronne, Québec (Québec) G1K 6E7 »); identique à Michelin. OSM calcule G1K 6E1 (non retenu).",
+      "source_coords": "OpenStreetMap (Nominatim) : point d'adresse du 325, rue de la Couronne (node 1198741893, place=house) — adresse, pas un point « Kundah » (absent d'OSM)",
+      "confirme": true,
+      "remarque": "",
+      "horaire": "Mar.–dim. 17 h – 22 h · fermé lun. Sur réservation seulement.",
+      "source_horaire": "Site officiel https://kundahhotel.com/",
+      "telephone": "581 300-3930",
+      "reservation": {
+        "url": "https://widgets.libroreserve.com/WEB/QC014756812917/book",
+        "via": "Libro (« sur réservation seulement »)"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Indienne contemporaine",
+      "prix": {
+        "snacks": "8-16 $",
+        "plats": "17-27 $",
+        "a_cotes": "3-14 $",
+        "desserts": "6-15 $",
+        "budget_michelin": "$$",
+        "source": "Menu du site officiel https://kundahhotel.com/#menu (lu le 19 oct. 2026)",
+        "remarque": "Michelin mentionne un menu dégustation : prix introuvable."
+      },
+      "specialites": [
+        "Canard au beurre (cuisse confite) 27 $",
+        "Agneau nargisi korma 27 $",
+        "Bœuf ularthiyathu (Kerala) 24 $",
+        "Momo d'agneau (4) 16 $",
+        "Gulab chômeur 14 $"
+      ],
+      "on_y_mange": "Souper seulement",
+      "ambiance": "Décor chaleureux, bar central à cocktails, accueil souriant (Michelin); « Sortir en famille » (Michelin).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Restaurant recommandé (sélection) du Guide Michelin Québec; pas d'étoile ni de Bib",
+      "statut": "Ouvert (horaire et menu en ligne en oct. 2026).",
+      "courriel": "info@kundahhotel.com",
+      "sources_details": {
+        "site": "https://kundahhotel.com/",
+        "michelin": "https://guide.michelin.com/ca/fr/quebec/quebec_2434166/restaurant/kundah-hotel",
+        "recommandation": "https://tastet.ca/listes/meilleurs-restaurants-de-quebec/ ; https://tastet.ca/critiques/kundah-hotel-cuisine-indienne-revisitee-a-la-quebecoise/"
+      },
+      "pourquoi_populaire": "Guide Michelin (sélection Québec); Tastet, restaurants incontournables de Québec 2026 (« franchement singulier ») et critique Tastet.",
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Gao comptoir vietnamien",
+      "categorie": "resto",
+      "note": "Comptoir de la famille Phan (ex-La Campagne) : cuisine du Centre du Vietnam, bánh mì, soupes, rouleaux; sur place ou pour emporter. Midi et début de soirée seulement.",
+      "adresse": "555, rue Saint-Jean, G1R 1P5",
+      "ville": "Québec (Saint-Jean-Baptiste)",
+      "lat": 46.8097941,
+      "lng": -71.2203812,
+      "site": "https://gaocomptoirvietnamien.com/",
+      "source_adresse": "Site officiel (section « Find Us » : 555 Rue Saint-Jean, G1R 1P5). OSM indique G1R 1P8 (non retenu).",
+      "source_coords": "OpenStreetMap (Nominatim) : point du restaurant « Gao comptoir vietnamien » (node 6802917385) — point d'intérêt dans le bâtiment des 555-559, rue Saint-Jean (way 1434047358)",
+      "confirme": true,
+      "remarque": "Ferme à 18 h ou 19 h : pas pour un souper tardif.",
+      "horaire": "Lun., mar., mer. et sam. 11 h – 18 h · jeu.–ven. 11 h – 19 h · fermé dim.",
+      "source_horaire": "Site officiel (section Schedule). Non confirmé : Restoquébec affiche lun. 11 h – 20 h 30.",
+      "telephone": "418 914-5858",
+      "reservation": {
+        "url": "",
+        "via": "introuvable (comptoir; commande en ligne sur le site)"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Comptoir vietnamien",
+      "prix": {
+        "budget": "introuvable sur le site officiel (Restaurant Guru : 10 à 20 $ par personne, source secondaire, non confirmé)",
+        "source": "https://restaurantguru.com/GAO-Quebec-City (non confirmé)"
+      },
+      "specialites": [
+        "Mì Quảng (nouilles au curcuma) — recommandé par Tastet",
+        "Bò kho (ragoût de bœuf) — Tastet",
+        "Bánh mì (Tastet; site officiel)",
+        "Bún chả giò (avis cité sur le site)"
+      ],
+      "on_y_mange": "Dîner et début de soirée; sur place ou pour emporter",
+      "ambiance": "Décor moderne et épuré (Tastet), petit comptoir rénové (site officiel).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "Stationnement sur rue (Tripadvisor, non confirmé)",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert (horaire en ligne, © 2026).",
+      "courriel": "gaocomptoirvietnamien@gmail.com",
+      "sources_details": {
+        "site": "https://gaocomptoirvietnamien.com/",
+        "recommandation": "https://tastet.ca/listes/ou-bien-manger-pour-pas-cher-a-quebec/ ; https://www.radio-canada.ca/mordu/2168/retour-aux-sources-gao-comptoir-vietnamien"
+      },
+      "pourquoi_populaire": "Tastet, liste « Où bien manger pour pas cher à Québec »; reportage Mordu (Radio-Canada).",
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Julio Taqueria",
+      "categorie": "resto",
+      "note": "Taqueria-bar colorée (salle de Lanterne Architectes), tortillas de maïs faites sur place, tout sans gluten, cocktails à la tequila et au mezcal. Même groupe que Chez Tao.",
+      "adresse": "218, rue Saint-Vallier Ouest, G1K 1K2",
+      "ville": "Québec (Saint-Sauveur)",
+      "lat": 46.8120072,
+      "lng": -71.2354652,
+      "site": "https://juliotaqueria.ca/",
+      "source_adresse": "Adresse : site officiel (sans code postal). Code postal G1K 1K2 : OpenTable → non vérifié sur le site officiel. OSM calcule G1K 9A4 (non retenu).",
+      "source_coords": "OpenStreetMap (Nominatim) : position interpolée du n° 218 sur une ligne de numéros 218-264, rue Saint-Vallier Ouest (way 103868199) — ni bâtiment ni point du resto (absent d'OSM)",
+      "confirme": true,
+      "remarque": "Le nom de domaine juliotaqueria.com redirige vers le même site; les menus sont hébergés sur juliotaqueria.ca.",
+      "horaire": "Tous les jours 11 h 30 – 23 h (service continu); brunch sam.–dim. 11 h 30 – 14 h 30",
+      "source_horaire": "Site officiel",
+      "telephone": "581 300-1261",
+      "reservation": {
+        "url": "https://www.opentable.ca/r/julio-taqueria-reservations-quebec?restref=1434247",
+        "via": "OpenTable (exclusivement, selon la FAQ du site); sans réservation aussi"
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Taqueria, plats à partager",
+      "prix": {
+        "trempettes_grignotines": "5-7 $",
+        "entrees_froides_chaudes": "9-17 $",
+        "tacos": "13-15 $ (3 par assiette)",
+        "quesadillas": "16-17 $",
+        "a_partager": "Puscagua de robalo 36 $",
+        "desserts": "8 $",
+        "promos": "Mardi dès 17 h : 2 tacos pour 6 $; mercredi dès 17 h : 2 pour 1 sur margaritas et bières",
+        "source": "Menu PDF du site, à jour au 27 août 2026 https://juliotaqueria.ca/wp-content/uploads/2026/08/WEB-JULIO-MENU-A-JOUR-27-AOUT-2026-3-LANGUES.pdf ; promos : page d'accueil"
+      },
+      "specialites": [
+        "Tacos al pastor 13 $",
+        "Tacos birria avec consommé 15 $",
+        "Sikil pak (trempette maya) 7 $",
+        "Aguachile de crevettes 16 $",
+        "Churros au dulce de leche 8 $"
+      ],
+      "on_y_mange": "Midi et soir, 7 jours; brunch la fin de semaine",
+      "ambiance": "Salle très colorée en trois sections, comptoir de bar; groupes jusqu'à 35 personnes (site).",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert (menu mis à jour le 27 août 2026).",
+      "courriel": "gestion@juliotaqueria.ca",
+      "sources_details": {
+        "site": "https://juliotaqueria.ca/",
+        "recommandation": "https://www.lapresse.ca/gourmand/restaurants/2024-02-03/critique-resto/julio-taqueria-voyage-tres-colore-au-mexique.php ; https://www.lapresse.ca/gourmand/restaurants/2022-03-03/a-l-essai/julio-taqueria-saveurs-mexicaines-a-quebec.php",
+        "code_postal": "https://www.opentable.ca/r/julio-taqueria-quebec"
+      },
+      "pourquoi_populaire": "Critique resto de La Presse (Ève Dumas, févr. 2024) et « À l'essai » de La Presse (mars 2022).",
+      "bieres": "sans objet (restaurant)",
+      "code_postal": "G1K 1K2 (non confirmé : OpenTable; absent du site officiel; OSM donne G1K 9A4)"
+    },
+    {
+      "nom": "Bati Cantine (Saint-Roch)",
+      "categorie": "resto",
+      "note": "DÉMÉNAGEMENT : quittera Saint-Roch pour le 8632, boul. Henri-Bourassa (Charlesbourg) à l'hiver 2026, date inconnue. Cantine familiale cambodgienne des Khuon (rue Saint-Joseph depuis 2000, liée à l'ancien Bati Bassac) : poulet frit cambodgien « KFC », Le Khmer, Loc Lac, soupes-repas. Poulet et bœuf halal.",
+      "adresse": "125, rue Saint-Joseph Est, G1K 3A8",
+      "ville": "Québec (Saint-Roch)",
+      "lat": 46.8125429,
+      "lng": -71.2295525,
+      "site": "https://www.baticantine.com/fr",
+      "source_adresse": "Adresse : site officiel (« 125 rue Saint-Joseph E. », sans code postal). Code postal G1K 3A8 : Tastet et OSM → non vérifié sur le site officiel.",
+      "source_coords": "OpenStreetMap (Nominatim) : point du restaurant « Bati Cantine du Cambodge » (node 14136022401) — point d'intérêt",
+      "confirme": true,
+      "remarque": "DÉMÉNAGEMENT ANNONCÉ : le site dit « Ouvert jusqu'au déménagement » à Saint-Roch; nouvelle adresse 8632, boul. Henri-Bourassa (Charlesbourg), ouverture prévue à l'hiver 2026. Date de fermeture de Saint-Roch introuvable. batibassac.com redirige vers le même site.",
+      "horaire": "Dim.–lun. 16 h – 21 h · mar.–mer. 11 h – 21 h · jeu.–ven. 11 h – 22 h · sam. 15 h – 22 h",
+      "source_horaire": "Site officiel (« Horaires de Saint-Roch »)",
+      "telephone": "418 522-4567",
+      "reservation": {
+        "url": "",
+        "via": "introuvable (cantine; commande pour emporter et livraison sur le site). Ancien lien Libro de Bati Bassac non confirmé."
+      },
+      "ferme_jusqua": "",
+      "type_cuisine": "Cantine de rue cambodgienne",
+      "prix": {
+        "entrees": "6,25-15,85 $",
+        "soupes_repas": "17,95-18,95 $",
+        "plats": "17,95-25,55 $",
+        "grillades": "11,95 $",
+        "bieres": "Singha 300 ml 7,50 $",
+        "source": "Menu du site officiel https://www.baticantine.com/fr#menu (lu le 19 oct. 2026)"
+      },
+      "specialites": [
+        "Poulet « KFC » (frit cambodgien) 15,85 $ — « à essayer absolument » (Tastet)",
+        "Le Khmer (poulet citronnelle) 22,95 $",
+        "Loc Lac 22,95 $",
+        "Le Koral (bœuf épicé) 20,95 $",
+        "Boulettes lao « Looc Sin » 8,55 $"
+      ],
+      "on_y_mange": "Midi (mar.–ven.) et soir; sur place, pour emporter ou en livraison",
+      "ambiance": "Petite salle avec cuisine ouverte et terrasse de 40 places l'été (Tastet).",
+      "terrasse": "Oui, l'été (Tastet)",
+      "accessibilite_stationnement": "introuvable (Saint-Roch)",
+      "distinctions": "Aucune trouvée",
+      "statut": "Déménage à l'hiver 2026, date inconnue, au 8632, boul. Henri-Bourassa · ouvert à Saint-Roch d'ici là",
+      "courriel": "info@baticantine.com",
+      "sources_details": {
+        "site": "https://www.baticantine.com/fr",
+        "recommandation": "https://tastet.ca/listes/ou-bien-manger-pour-pas-cher-a-quebec/ ; https://tastet.ca/critiques/cantine-bati-st-roch-quebec/ ; https://www.lesoleil.com/2018/09/20/la-cantine-cambodgienne-bati-4612649a01c8b54ce39f250ad4398010/"
+      },
+      "pourquoi_populaire": "Tastet, liste « Où bien manger pour pas cher à Québec » et critique Tastet; article du Soleil (2018).",
+      "bieres": "sans objet (restaurant)",
+      "code_postal": "G1K 3A8 (non confirmé : Tastet et OSM; absent du site officiel)"
     }
   ]
 }
