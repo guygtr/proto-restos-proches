@@ -1433,6 +1433,174 @@
       "pourquoi_populaire": "Tastet, liste « Où bien manger pour pas cher à Québec » et critique Tastet; article du Soleil (2018).",
       "bieres": "sans objet (restaurant)",
       "code_postal": "G1K 3A8 (non confirmé : Tastet et OSM; absent du site officiel)"
+    },
+    {
+      "nom": "Légende",
+      "note": "Cuisine boréale et créative qui revisite le patrimoine québécois. 1 étoile Michelin 2025.",
+      "adresse": "255, rue Saint-Paul, G1K 3W5",
+      "ville": "Québec (Vieux-Port)",
+      "lat": 46.8168975,
+      "lng": -71.2100965,
+      "site": "https://www.restaurantlegende.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Restaurant Légende », 255 rue Saint-Paul (node 4330005293) — point d'intérêt",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "resto",
+      "horaire": "Dim.–jeu. 17 h – 21 h · ven.–sam. 17 h – 21 h 30 (non confirmé : Michelin et Restoenligne, pas vu sur le site officiel)",
+      "reservation": {
+        "url": "",
+        "via": "Libro"
+      },
+      "telephone": "418 614-2555 (le site affiche aussi 418 872-4386, à confirmer — non confirmé)",
+      "ferme_jusqua": "",
+      "source_horaire": "Guide Michelin et Restoenligne (pas vu sur le site officiel)",
+      "type_cuisine": "Cuisine boréale créative, patrimoine québécois revisité",
+      "prix": {
+        "gamme": "$$$$ (Michelin), aucun montant publié",
+        "source": "Guide Michelin"
+      },
+      "specialites": [],
+      "on_y_mange": "Souper",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "1 étoile Michelin 2025",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://www.restaurantlegende.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Chez Muffy (Auberge Saint-Antoine)",
+      "note": "De la ferme à la table : produits de la ferme de l'auberge à l'île d'Orléans, plus de 700 vins. Auberge en travaux jusqu'à la mi-2027 environ.",
+      "adresse": "10, rue Saint-Antoine, G1K 4C9",
+      "ville": "Québec (Vieux-Port)",
+      "lat": 46.8145549,
+      "lng": -71.2019308,
+      "site": "https://www.saint-antoine.com/fr/chez-muffy",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : adresse 10 rue Saint-Antoine (node 1019190318) — point d'adresse de l'auberge",
+      "confirme": true,
+      "remarque": "À noter : auberge en travaux jusqu'à la mi-2027 environ.",
+      "categorie": "resto",
+      "horaire": "Heures non confirmées : Michelin donne tous les jours 7 h – 11 h et 17 h 30 – 20 h 30; RestoQuebec n'indique pas de souper le lundi, et un brunch le dimanche",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 692-1022"
+      },
+      "telephone": "418 692-1022",
+      "ferme_jusqua": "",
+      "source_horaire": "Guide Michelin et RestoQuebec (contradictoires)",
+      "type_cuisine": "De la ferme à la table",
+      "prix": {
+        "gamme": "$$$$ (Michelin)",
+        "plats": "51 $ et plus (OpenTable)",
+        "source": "Guide Michelin; OpenTable"
+      },
+      "specialites": [],
+      "on_y_mange": "Déjeuner et souper (non confirmé)",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert · auberge en travaux jusqu'à la mi-2027 environ",
+      "sources_details": {
+        "site": "https://www.saint-antoine.com/fr/chez-muffy",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Corsaire Microbrasserie (Pub La Traverse)",
+      "note": "Bières de styles britanniques, plusieurs médailles. Au pub : planches, viandes fumées, terrasse avec vue sur le Château Frontenac.",
+      "adresse": "5955, rue Saint-Laurent, local 101, G6V 3P5",
+      "ville": "Lévis (Vieux-Lévis)",
+      "lat": 46.8095586,
+      "lng": -71.187256,
+      "site": "https://corsairemicro.ca/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Pub La Traverse - Le Corsaire », 5955 rue Saint-Laurent (node 2546835197) — point d'intérêt",
+      "confirme": true,
+      "remarque": "Deuxième adresse : Salon Lauzon, 8780, boul. Guillaume-Couture, G6V 9G9 — fermé dim. et lun., mar.–mer. midi – 1 h, jeu.–ven. midi – 3 h, samedi non confirmé.",
+      "categorie": "microbrasserie",
+      "horaire": "Lun.–mar. 15 h – 1 h · mer. et dim. 11 h – 1 h · jeu.–sam. 11 h – 3 h",
+      "reservation": {
+        "url": "",
+        "via": "introuvable"
+      },
+      "telephone": "418 903-9105",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "type_cuisine": "Pub de microbrasserie (planches, viandes fumées)",
+      "prix": {
+        "bieres": "introuvable",
+        "plats": "introuvable",
+        "source": "Aucun prix publié"
+      },
+      "specialites": [
+        "Planches",
+        "Viandes fumées"
+      ],
+      "on_y_mange": "Planches et viandes fumées",
+      "ambiance": "introuvable",
+      "terrasse": "Oui — vue sur le Château Frontenac",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Plusieurs médailles",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://corsairemicro.ca/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)"
+      },
+      "bieres": {
+        "styles": "Styles britanniques",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)"
+      }
+    },
+    {
+      "nom": "Archibald micro et resto",
+      "note": "Microbrasserie avec cuisine complète.",
+      "adresse": "1021, boul. du Lac, G3B 0X1",
+      "ville": "Lac-Beauport",
+      "lat": 46.9373348,
+      "lng": -71.3090828,
+      "site": "https://www.archibaldmicrobrasserie.ca/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : adresse 1021 boulevard du Lac (node 1203566735) — point d'adresse",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "microbrasserie",
+      "horaire": "Dim.–mer. 11 h 30 – 22 h · jeu.–sam. 11 h 30 – minuit",
+      "reservation": {
+        "url": "https://www.archibaldmicrobrasserie.ca/",
+        "via": "En ligne sur le site"
+      },
+      "telephone": "418 841-2224",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)",
+      "type_cuisine": "Microbrasserie avec restaurant",
+      "prix": {
+        "bieres": "introuvable",
+        "plats": "introuvable",
+        "source": "Aucun prix publié"
+      },
+      "specialites": [],
+      "on_y_mange": "Cuisine complète",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://www.archibaldmicrobrasserie.ca/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 22 oct. 2026)"
+      },
+      "bieres": {
+        "styles": "introuvable",
+        "source": "Styles non publiés"
+      }
     }
   ]
 }
