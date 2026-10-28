@@ -101,3 +101,11 @@ Captures : `screenshots/before-mobile.png` (ancien design), `screenshots/after-m
 - Distance et temps en auto réels (et non à vol d'oiseau).
 - Petite carte avec les restos.
 - Mise à jour hebdo automatique de `restos.json` depuis le bot Achat et réservation.
+
+## Vérifié ordinateur + cellulaire (28 oct. 2026)
+
+Testé à 1280×800, 768 px et 390×844 : aucun débordement horizontal, aucun texte coupé, boutons d'au moins 40 px, pied de page GTR présent, aucune erreur dans la console.
+
+| Ordinateur | Cellulaire |
+|---|---|
+| ![](screenshots/audit-2026-10-28-ordi.png) | ![](screenshots/audit-2026-10-28-cell.png) |
