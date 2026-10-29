@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-22",
+  "mise_a_jour": "2026-10-29",
   "enrichi_le": "2026-10-18",
   "note_enrichissement": "Fiches enrichies à partir des sites officiels d'abord, puis Guide Michelin, La Presse, Le Soleil, Tastet, Tourisme Charlevoix, portneuf.ca, AMBQ. « non confirmé » = source secondaire ou contradiction; « introuvable » = aucune source trouvée. Blaxton Lebourgneuf exclu à la demande de Guy.",
   "restos": [
@@ -1600,6 +1600,218 @@
       "bieres": {
         "styles": "introuvable",
         "source": "Styles non publiés"
+      }
+    },
+    {
+      "nom": "Le Clan",
+      "note": "Terroir québécois inspiré de la chasse et de la pêche, par le chef Stéphane Modat. Une étoile Michelin.",
+      "adresse": "44, rue des Jardins, G1R 3Z1",
+      "ville": "Québec (Vieux-Québec)",
+      "lat": 46.8118452,
+      "lng": -71.2074857,
+      "site": "https://restaurantleclan.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Le Clan », 44 rue des Jardins (node 14058656201) — point d'intérêt",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "resto",
+      "horaire": "Lun.–jeu. 11 h 30 – 14 h et 17 h – 21 h 30 · ven. 11 h 30 – 14 h et 17 h – 22 h · sam. 9 h – 14 h et 17 h – 22 h · dim. 9 h – 14 h et 17 h – 21 h 30",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 692-0333"
+      },
+      "telephone": "418 692-0333",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "type_cuisine": "Terroir québécois (chasse et pêche)",
+      "prix": {
+        "gamme": "$$$$ (Michelin)",
+        "plats": "Menu 6 services 119 $ · 4 services 89 $ · midi 59 $ · brunch 39 $ (page du site datée de mai 2024, à vérifier)",
+        "source": "Site officiel (mai 2024, à vérifier); Guide Michelin"
+      },
+      "specialites": [],
+      "on_y_mange": "Menus dégustation, midi et brunch",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Une étoile Michelin",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://restaurantleclan.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Chez Rioux & Pettigrew",
+      "note": "Cuisine du marché québécoise, par le chef Dominic Jacques. Recommandé par le Guide Michelin.",
+      "adresse": "160, rue Saint-Paul, G1K 3W1",
+      "ville": "Québec (Vieux-Port)",
+      "lat": 46.81670049,
+      "lng": -71.206762485,
+      "site": "https://chezriouxetpettigrew.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "source_coords": "OpenStreetMap (Photon/komoot) : bâtiment 160 rue Saint-Paul (way 87615030) — Nominatim n'a rien trouvé",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "resto",
+      "horaire": "Souper tous les jours 17 h 30 – 22 h · midi lun.–ven. 11 h 30 – 13 h 30 (Michelin dit jeu.–ven. seulement, à vérifier) · brunch dim. 9 h – 13 h 30",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 694-4448"
+      },
+      "telephone": "418 694-4448",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "type_cuisine": "Cuisine du marché québécoise",
+      "prix": {
+        "gamme": "$$$ (Michelin)",
+        "plats": "75 $ et plus par personne",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "specialites": [],
+      "on_y_mange": "Souper, midi et brunch du dimanche",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Recommandé Guide Michelin",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://chezriouxetpettigrew.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Le Pied Bleu",
+      "note": "Bouchon lyonnais avec charcuterie maison.",
+      "adresse": "179, rue Saint-Vallier Ouest, G1K 1J9",
+      "ville": "Québec (Saint-Sauveur)",
+      "lat": 46.8117262,
+      "lng": -71.2344702,
+      "site": "",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Le Pied Bleu », 179 rue Saint-Vallier Ouest (node 9832052517) — point d'intérêt",
+      "confirme": true,
+      "remarque": "Site officiel à vérifier.",
+      "categorie": "resto",
+      "horaire": "Horaire à vérifier : mer.–ven. 11 h 30 – 14 h et 18 h – 21 h 30 · sam. 18 h – 21 h 30 · brunch sam.–dim. 10 h – 14 h · fermé lun.–mar.",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 914-3554 (à vérifier)"
+      },
+      "telephone": "418 914-3554 (à vérifier)",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "type_cuisine": "Bouchon lyonnais",
+      "prix": {
+        "gamme": "$$$ (Yelp)",
+        "plats": "introuvable",
+        "source": "Yelp"
+      },
+      "specialites": [
+        "Charcuterie maison"
+      ],
+      "on_y_mange": "Cuisine lyonnaise et charcuterie maison",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Griendel, brasserie artisanale",
+      "note": "Bières maison brassées à Saint-Jacques-de-Leeds, repas complet et terrasse.",
+      "adresse": "46, boul. René-Lévesque Ouest, G1R 2A4",
+      "ville": "Québec (Montcalm)",
+      "lat": 46.8047535,
+      "lng": -71.2261759,
+      "site": "https://griendel.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Griendel », 46 boul. René-Lévesque Ouest (node 13168017196) — point d'intérêt",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "microbrasserie",
+      "horaire": "Lun.–mar. 16 h – minuit · mer.–dim. midi – minuit · cuisine jusqu'à 22 h",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 522-2552"
+      },
+      "telephone": "418 522-2552",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "type_cuisine": "Brasserie artisanale avec repas complet",
+      "prix": {
+        "bieres": "à vérifier",
+        "plats": "à vérifier",
+        "source": "Prix à vérifier"
+      },
+      "specialites": [],
+      "on_y_mange": "Repas complet",
+      "ambiance": "introuvable",
+      "terrasse": "Oui",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://griendel.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "bieres": {
+        "styles": "introuvable",
+        "source": "Bières maison brassées à Saint-Jacques-de-Leeds"
+      }
+    },
+    {
+      "nom": "Le Saint-Pub (MicroBrasserie Charlevoix)",
+      "note": "Bière brassée sur place depuis 1998, smoked meat à la bière et fumoir.",
+      "adresse": "2, rue Racine, G3Z 2P8",
+      "ville": "Baie-Saint-Paul",
+      "lat": 47.4429535,
+      "lng": -70.5075954,
+      "site": "https://microbrasserie.com/bienvenue-au-saint-pub-2/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Le Saint-pub », 2 rue Racine (node 3110360819) — point d'intérêt",
+      "confirme": true,
+      "remarque": "",
+      "categorie": "microbrasserie",
+      "horaire": "Dim.–jeu. 11 h 30 – 21 h · ven.–sam. 11 h 30 – 21 h 30",
+      "reservation": {
+        "url": "",
+        "via": "Téléphone : 418 240-2332"
+      },
+      "telephone": "418 240-2332",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)",
+      "type_cuisine": "Pub de microbrasserie (fumoir)",
+      "prix": {
+        "gamme": "$ à $$",
+        "bieres": "introuvable",
+        "plats": "introuvable",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "specialites": [
+        "Smoked meat à la bière",
+        "Fumoir"
+      ],
+      "on_y_mange": "Smoked meat à la bière et fumoir",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://microbrasserie.com/bienvenue-au-saint-pub-2/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 29 oct. 2026)"
+      },
+      "bieres": {
+        "styles": "introuvable",
+        "source": "Brassée sur place depuis 1998"
       }
     }
   ]
