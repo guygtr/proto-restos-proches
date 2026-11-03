@@ -55,7 +55,7 @@ body {
   background-attachment: fixed;
 }
 :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; border-radius: var(--r-sm); }
-.skip { position: absolute; left: -999px; top: var(--s-2); z-index: calc(var(--z-toast) + 1); background: var(--color-gold); color: var(--c-gold-ink); padding: var(--s-2) var(--s-3); border-radius: var(--r-sm); font-weight: 700; }
+.skip { position: absolute; left: -999px; top: var(--s-2); z-index: calc(var(--z-toast) + 1); background: var(--color-gold); color: var(--c-gold-ink); padding: var(--s-2) var(--s-3); border-radius: var(--r-sm); font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; }
 .skip:focus { left: var(--s-2); }
 
 .glass {
@@ -93,7 +93,7 @@ h1 { margin: 0; font-size: var(--t-xl); font-weight: 800; letter-spacing: -.02em
 /* Filtres (segmented control) */
 .filtres { display: flex; gap: 6px; max-width: 760px; margin: var(--s-3) auto 0; padding: 4px; border-radius: var(--r-md); background: rgba(0, 0, 0, .35); border: 1px solid var(--c-border); }
 .filtre {
-  flex: 1 1 auto; white-space: nowrap; min-height: 40px; padding: 0 var(--s-2);
+  flex: 1 1 auto; white-space: nowrap; min-height: 44px; padding: 0 var(--s-2);
   font: 600 var(--t-sm)/1 var(--f-sans); color: var(--c-text-muted);
   background: transparent; border: 0; border-radius: var(--r-sm); cursor: pointer; transition: background .2s, color .2s;
 }
