@@ -110,6 +110,10 @@ Testé à 1280×800, 768 px et 390×844 : aucun débordement horizontal, aucun t
 |---|---|
 | ![](screenshots/audit-2026-10-28-ordi.png) | ![](screenshots/audit-2026-10-28-cell.png) |
 
+## Ajouts du 5 nov. 2026
+
+Tournée du jeudi (Restos et microbrasseries, via Jarvis) : Chez Lionel — Ste-Foy, cuicui, Le Lit Double, Microbrasserie Le Saint-Colomb et Nano Cinco Brasserie Artisanale. Total : 39 adresses. Réserves conservées telles quelles (notamment horaire **NON CONFIRMÉ** du Saint-Colomb ; terrasses, menus et plateformes de réservation « à vérifier »). Testé à 1280×800, 768 px et 390×844.
+
 ## Ajouts du 29 oct. 2026
 
 Tournée du jeudi (Restos et microbrasseries, via Jarvis) : Le Clan, Chez Rioux & Pettigrew, Le Pied Bleu, Griendel et Le Saint-Pub (Baie-Saint-Paul). Total : 34 adresses. Testé à 1280×800, 768 px et 390×844.

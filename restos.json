@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-29",
+  "mise_a_jour": "2026-11-05",
   "enrichi_le": "2026-10-18",
   "note_enrichissement": "Fiches enrichies à partir des sites officiels d'abord, puis Guide Michelin, La Presse, Le Soleil, Tastet, Tourisme Charlevoix, portneuf.ca, AMBQ. « non confirmé » = source secondaire ou contradiction; « introuvable » = aucune source trouvée. Blaxton Lebourgneuf exclu à la demande de Guy.",
   "restos": [
@@ -1812,6 +1812,247 @@
       "bieres": {
         "styles": "introuvable",
         "source": "Brassée sur place depuis 1998"
+      }
+    },
+    {
+      "nom": "Chez Lionel — Ste-Foy",
+      "note": "Brasserie française moderne / bistronomique (ex-Paris Grill). Table d’hôte midi 3 services 42 $ (menus site). Ouvert vers le 10 sept. 2026.",
+      "adresse": "2820, boulevard Laurier, local 175, Complexe Jules-Dallaire, G1V 0C1",
+      "ville": "Québec (Ste-Foy)",
+      "lat": 46.7678993,
+      "lng": -71.2879715,
+      "site": "https://www.chezlionel.ca/restaurants/ste-foy",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site officiel ; local 175 : Visiter Québec",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Paris Grill », 2820 boulevard Laurier (node 5158263721) — même adresse civique ; OSM n’a pas encore le nom Chez Lionel",
+      "confirme": true,
+      "remarque": "Terrasse prévue pour l’été suivant (Le Soleil sept. 2026) — statut actuel à vérifier. Plateforme exacte de réservation à vérifier.",
+      "categorie": "resto",
+      "horaire": "Dim.–mer. 11 h 30 – 22 h · jeu.–sam. 11 h 30 – 23 h",
+      "reservation": {
+        "url": "https://www.chezlionel.ca/reservation",
+        "via": "Site (plateforme exacte à vérifier)",
+        "non_confirme": true
+      },
+      "telephone": "418 658-4415",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site officiel",
+      "type_cuisine": "Brasserie française moderne / bistronomique",
+      "prix": {
+        "midi": "Table d’hôte 3 services 42 $",
+        "plats": "Ex. César 15 $, tartares 34 $, fish and chips 28 $, onglet 44 $, burger Lionel 26 $ (menus site)",
+        "gamme": "50–75 $/pers. (Visiter Québec)",
+        "source": "Menus site officiel ; Visiter Québec"
+      },
+      "specialites": [
+        "Tartares",
+        "Burger Lionel",
+        "Confit de canard",
+        "Guédille/poutine homard (Le Soleil)",
+        "Fruits de mer",
+        "Onglet"
+      ],
+      "on_y_mange": "Cuisine complète (~175 places), grande salle privée",
+      "ambiance": "introuvable",
+      "terrasse": "Prévue pour l’été suivant (Le Soleil sept. 2026) — statut actuel à vérifier",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://www.chezlionel.ca/restaurants/ste-foy",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; Le Soleil 9 sept. 2026 ; quebec-cite.com"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "cuicui",
+      "note": "Resto-bar de quartier : bouchées, huîtres, plats, cocktails et vins. Ouverture printemps 2026.",
+      "adresse": "215, rue Saint-Vallier Ouest, G1K 1K3",
+      "ville": "Québec (Saint-Sauveur)",
+      "lat": 46.8118392,
+      "lng": -71.2354451,
+      "site": "https://www.barcuicui.ca/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site et Mon Saint-Sauveur (écart postal QTG G1K 1S3 non retenu)",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment 215–217 rue Saint-Vallier Ouest (way 1429123896) — centroïde d’adresse ; pas de point d’intérêt nommé cuicui",
+      "confirme": true,
+      "remarque": "Terrasse à vérifier. Prix issus de Voilà Québec (source secondaire).",
+      "categorie": "resto",
+      "horaire": "Mer.–dim. 16 h – 1 h · fermé lun.–mar.",
+      "reservation": {
+        "url": "https://booking.libroreserve.com/1774363635202c8eb93db/QC01774363635791350/seat",
+        "via": "Libro"
+      },
+      "telephone": "418 380-1420",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site officiel",
+      "type_cuisine": "Resto-bar / bar de quartier",
+      "prix": {
+        "bouchees": "Ex. pop-corn pecorino 6 $, œufs mimosa 10 $ (Voilà Québec, secondaire)",
+        "plats": "~26–34 $ (Voilà Québec, secondaire)",
+        "cocktails": "13–17 $ (Voilà Québec, secondaire)",
+        "source": "Voilà Québec (secondaire) — à croiser"
+      },
+      "specialites": [
+        "Huîtres",
+        "Pop-corn pecorino",
+        "Ravioli champignons",
+        "Poulet demi-glace",
+        "Morue poireaux"
+      ],
+      "on_y_mange": "Bouchées et plats ; apéro jeu.–dim. 16 h–18 h avec bouchée (Visiter Québec)",
+      "ambiance": "introuvable",
+      "terrasse": "à vérifier",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://www.barcuicui.ca/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; Voilà Québec ; Mon Saint-Sauveur 24 janv. 2026 ; Visiter Québec ; Plustrois"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Le Lit Double",
+      "note": "Resto-bar festif, bar food mondial, options véganes, bières micro, cocktails et vins privés. Ex-Pub Le Projet ; réouverture vers le 14 nov. 2025.",
+      "adresse": "399, rue Saint-Jean, G1R 1N8",
+      "ville": "Québec (Saint-Jean-Baptiste)",
+      "lat": 46.8089076,
+      "lng": -71.2223492,
+      "site": "https://www.lelitdouble.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site ; CP : Mon Saint-Jean / quartiersjb",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Le Lit Double », 399 rue Saint-Jean (node 2691375024) — point d’intérêt",
+      "confirme": true,
+      "remarque": "Plats nominatifs actuels à vérifier. URL de la plateforme de réservation à vérifier. Fourchette de prix globale à vérifier.",
+      "categorie": "resto",
+      "horaire": "Lun.–mer. + dim. 15 h – 1 h · jeu.–sam. 15 h – 3 h (FAQ)",
+      "reservation": {
+        "url": "",
+        "via": "Réservation facultative — URL plateforme à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "581 701-2044",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; FAQ du site",
+      "type_cuisine": "Resto-bar festif — bar food mondial ; options véganes",
+      "prix": {
+        "partage": "Menu partage 5 services 30 $/pers. (FAQ)",
+        "bieres": "Pintes 7–10 $ (FAQ)",
+        "vins": "Vin en fût 10 $ la coupe (FAQ)",
+        "source": "FAQ du site — fourchette globale à vérifier"
+      },
+      "specialites": [],
+      "on_y_mange": "Cuisine de bar / plats à partager + late night ; chef Gaspard Thibaudeau Goupil — plats nominatifs actuels à vérifier",
+      "ambiance": "Lit double au plafond, ex-banque",
+      "terrasse": "Été ~25 places vue église Saint-Jean-Baptiste (FAQ)",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert",
+      "sources_details": {
+        "site": "https://www.lelitdouble.com/",
+        "faq": "https://www.lelitdouble.com/faq",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; Mon Saint-Jean 14 nov. 2025 ; Silo 57 30 janv. 2026 ; Visiter Québec"
+      },
+      "bieres": {
+        "styles": "Bières micro (détail à vérifier)",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; FAQ"
+      }
+    },
+    {
+      "nom": "Microbrasserie Le Saint-Colomb",
+      "note": "Brewpub à Sillery ; Charcotte (pilsner), Blanche de Sillery ; menu rotatif Untappd. Horaire NON CONFIRMÉ (annuaires divergents).",
+      "adresse": "1426, avenue Maguire, G1T 1Z3",
+      "ville": "Québec (Sillery)",
+      "lat": 46.780242913766,
+      "lng": -71.250319160172,
+      "site": "",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; Je bois local ; Voilà Québec ; Visiter Québec",
+      "source_coords": "Esri ArcGIS World Geocoding : PointAddress « 1426 Av Maguire, Quebec, Québec, G1T 1Z3 » (score 100) — pas de POI OSM nommé Saint-Colomb",
+      "confirme": true,
+      "remarque": "Pas de site officiel accessible. Horaire NON CONFIRMÉ. Menu actuel, prix, terrasse et réservation à vérifier.",
+      "categorie": "microbrasserie",
+      "horaire": "NON CONFIRMÉ (annuaires divergents) — consensus fréquent : fermé lun.–mar. · mer. 12 h – 22 h · jeu.–sam. 12 h – 0 h · dim. 12 h – 22 h ; à confirmer au 418 741-1220",
+      "reservation": {
+        "url": "",
+        "via": "Signalée (Restoenligne / JDQ) — à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "418 741-1220",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) — horaire NON CONFIRMÉ (annuaires divergents)",
+      "type_cuisine": "Brewpub — assiettes à partager / cuisine pub (menu actuel à vérifier)",
+      "prix": {
+        "bieres": "à vérifier",
+        "plats": "à vérifier",
+        "source": "Prix à vérifier"
+      },
+      "specialites": [],
+      "on_y_mange": "Oui — assiettes à partager / cuisine pub (JDQ 2023 ; Visiter Québec) — menu actuel à vérifier",
+      "ambiance": "introuvable",
+      "terrasse": "Signalée (Restoenligne / JDQ) — à vérifier",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert (Untappd oct. 2026 ; Visiter Québec màj 31 août 2026)",
+      "sources_details": {
+        "fiches": "https://jeboislocal.ca/?place=microbrasserie-le-saint-colomb ; https://voilaquebec.com/listing/microbrasserie-le-saint-colomb/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; JDQ fév. 2023 ; Je bois local ; Voilà Québec ; Visiter Québec ; Untappd ; Restoenligne"
+      },
+      "bieres": {
+        "styles": "Brewpub ; menu rotatif Untappd",
+        "phares": [
+          "Charcotte (pilsner)",
+          "Blanche de Sillery"
+        ],
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026)"
+      }
+    },
+    {
+      "nom": "Nano Cinco Brasserie Artisanale",
+      "note": "Brasserie artisanale à Limoilou : IPA/NEIPA, sûres, bières de soif, stouts, barriques. Plateaux/bouchées (pas resto complet) ; apport/livraison permis.",
+      "adresse": "236, 3e Rue, G1L 2S8",
+      "ville": "Québec (Limoilou)",
+      "lat": 46.8214157,
+      "lng": -71.2265813,
+      "site": "https://nanocinco.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site officiel",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Nano Cinco », 236 3e Rue (node 12755540256) — point d’intérêt",
+      "confirme": true,
+      "remarque": "Détails de terrasse à vérifier. Réservations par courriel commandes@nanocinco.com (ne pas écrire depuis le prototype).",
+      "categorie": "microbrasserie",
+      "horaire": "Lun.–mer. 15 h – 22 h (quiz mer. 20 h – 22 h) · jeu. 12 h – 0 h · ven.–sam. 12 h – 1 h · dim. 12 h – 22 h",
+      "reservation": {
+        "url": "",
+        "via": "Courriel : commandes@nanocinco.com"
+      },
+      "telephone": "581 705-0535",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; site officiel",
+      "type_cuisine": "Plateaux / bouchées (pas restaurant complet)",
+      "prix": {
+        "bieres": "Fûts ~7,50–12,50 $ ; trios 12,50 $ / 19,50 $ (PDF 2026)",
+        "plats": "Plateau fromages-charcuteries ~36 $ ; plateau végétalien 14–23 $ (PDF 2026)",
+        "source": "Menus PDF 2026 (site)"
+      },
+      "specialites": [],
+      "on_y_mange": "Plateaux / bouchées ; OK apporter ou livrer",
+      "ambiance": "introuvable",
+      "terrasse": "Oui (Monlimoilou) — détails à vérifier",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Membre AMBQ",
+      "statut": "Ouvert (menus PDF août–sept. 2026)",
+      "sources_details": {
+        "site": "https://nanocinco.com/",
+        "boutique": "https://boutique.nanocinco.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 5 nov. 2026) ; PDF menus ; AMBQ ; Monlimoilou ; Voilà Québec ; Visiter Québec"
+      },
+      "bieres": {
+        "styles": "IPA/NEIPA, sûres, bières de soif, stouts, barriques",
+        "phares": [
+          "Bierkrug",
+          "Mono-Mosaic",
+          "Tondeuse Rêveuse",
+          "Pause Fruitée",
+          "Pause Café"
+        ],
+        "source": "PDF août 2026 (site)"
       }
     }
   ]
