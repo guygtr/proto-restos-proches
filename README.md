@@ -110,6 +110,10 @@ Testé à 1280×800, 768 px et 390×844 : aucun débordement horizontal, aucun t
 |---|---|
 | ![](screenshots/audit-2026-10-28-ordi.png) | ![](screenshots/audit-2026-10-28-cell.png) |
 
+## Ajouts du 12 nov. 2026
+
+Tournée du jeudi (Restos et microbrasseries, via Jarvis) : Chez Boulay – Bistro Boréal, Le Continental, Chez Victor et Brasserie Générale (BG Brasserie Urbaine). Total : 43 adresses. Échec partiel signalé par Restos : une seule microbrasserie fiable cette semaine (Brasserie Générale). Réserves conservées telles quelles : Le Continental et Chez Victor reposent sur des sources secondaires (Fodor’s, Tripadvisor ; sites officiels non ouverts, adresses et téléphones « à vérifier ») ; horaire **NON CONFIRMÉ** de Brasserie Générale (sources contradictoires) et code postal à vérifier (G2N 2G6 vs G2N 2E2) ; prix « à vérifier » pour les quatre ; heure de fermeture du soir de Chez Boulay à vérifier. Seule Chez Boulay est marquée confirmée (adresse du site officiel + point OSM).
+
 ## Ajouts du 5 nov. 2026
 
 Tournée du jeudi (Restos et microbrasseries, via Jarvis) : Chez Lionel — Ste-Foy, cuicui, Le Lit Double, Microbrasserie Le Saint-Colomb et Nano Cinco Brasserie Artisanale. Total : 39 adresses. Réserves conservées telles quelles (notamment horaire **NON CONFIRMÉ** du Saint-Colomb ; terrasses, menus et plateformes de réservation « à vérifier »). Testé à 1280×800, 768 px et 390×844.

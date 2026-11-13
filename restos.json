@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-05",
+  "mise_a_jour": "2026-11-12",
   "enrichi_le": "2026-10-18",
   "note_enrichissement": "Fiches enrichies à partir des sites officiels d'abord, puis Guide Michelin, La Presse, Le Soleil, Tastet, Tourisme Charlevoix, portneuf.ca, AMBQ. « non confirmé » = source secondaire ou contradiction; « introuvable » = aucune source trouvée. Blaxton Lebourgneuf exclu à la demande de Guy.",
   "restos": [
@@ -2053,6 +2053,197 @@
           "Pause Café"
         ],
         "source": "PDF août 2026 (site)"
+      }
+    },
+    {
+      "nom": "Chez Boulay – Bistro Boréal",
+      "note": "Bistro boréal : cuisine nordique québécoise à technique française (Jean-Luc Boulay, Arnaud Marchand). Michelin $$$. Prix à vérifier.",
+      "adresse": "1110, rue Saint-Jean, G1R 1S4",
+      "ville": "Québec (Vieux-Québec)",
+      "lat": 46.813926,
+      "lng": -71.2108421,
+      "site": "https://chezboulay.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel chezboulay.com/contact ; Michelin identique",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Chez Boulay - Bistro Boreal », 1110 rue Saint-Jean, G1R 1S4 (node 4330071790) — point d’intérêt (restaurant)",
+      "confirme": true,
+      "remarque": "Quartier : Vieux-Québec selon le géocodeur OSM (Jarvis indiquait Saint-Jean-Baptiste). Dans l’Hôtel Manoir Victoria. Heure de fermeture du soir à vérifier. Prix à vérifier. Plateforme de réservation à vérifier. Groupes de 30 et moins : groupe@chezboulay.com (ne pas écrire depuis le prototype). Épicerie québécoise voisine : 42, côte du Palais.",
+      "categorie": "resto",
+      "horaire": "Soir tous les jours dès 17 h (fermeture à vérifier) · midi mar.–ven. 11 h 30 – 14 h · brunch sam.–dim. 10 h – 14 h",
+      "reservation": {
+        "url": "",
+        "via": "Gérée par l’établissement selon Michelin (plateforme à vérifier) ; groupes de 30 et moins : groupe@chezboulay.com",
+        "non_confirme": true
+      },
+      "telephone": "418 380-8166",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel — heure de fermeture du soir à vérifier",
+      "type_cuisine": "Bistro boréal — cuisine nordique québécoise à technique française ; régionale et traditionnelle (Michelin)",
+      "prix": {
+        "gamme": "$$$ (Michelin)",
+        "plats": "à vérifier",
+        "source": "Michelin ; prix à vérifier"
+      },
+      "specialites": [
+        "Gibiers",
+        "Poissons",
+        "Fruits de mer",
+        "Options végétariennes"
+      ],
+      "on_y_mange": "Cuisine complète — soir, midi (mar.–ven.) et brunch (sam.–dim.) ; ouvert toute l’année (Bonjour Québec)",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Sélection Guide Michelin Québec (fiche Michelin) — année exacte à vérifier",
+      "courriel": "groupe@chezboulay.com (groupes de 30 et moins)",
+      "statut": "Ouvert (depuis 2012 ; ouvert toute l’année selon Bonjour Québec)",
+      "sources_details": {
+        "site": "https://chezboulay.com/",
+        "contact": "https://chezboulay.com/contact",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel ; Guide Michelin Québec ; Bonjour Québec"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Le Continental",
+      "note": "Française classique depuis 1956, service au guéridon. Gamme $$$$ (Fodor’s/Tripadvisor). Horaire et prix à vérifier.",
+      "adresse": "26, rue Saint-Louis, G1R 3Y9",
+      "ville": "Québec (Vieux-Québec)",
+      "lat": 46.8118992,
+      "lng": -71.2069375,
+      "site": "https://restaurantlecontinental.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s — à vérifier sur le site officiel",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Le Continental », 26 rue Saint-Louis, G1R 3Y9 (node 6221945725) — point d’intérêt (restaurant), Vieux-Québec / Colline Parlementaire",
+      "confirme": false,
+      "remarque": "⚠️ Adresse et téléphone de source secondaire (Fodor’s) — à vérifier sur le site officiel. Site donné par Fodor’s, non ouvert directement : à vérifier. Mention Michelin Québec 2026 rapportée par une recherche web : à vérifier. Horaire et prix à vérifier.",
+      "categorie": "resto",
+      "horaire": "à vérifier",
+      "reservation": {
+        "url": "",
+        "via": "à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "418 694-9995 (Fodor’s, à vérifier)",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) — horaire à vérifier",
+      "type_cuisine": "Française classique (depuis 1956), service au guéridon",
+      "prix": {
+        "gamme": "$$$$ (Fodor’s / Tripadvisor) — à vérifier",
+        "plats": "à vérifier",
+        "source": "Fodor’s ; Tripadvisor — prix à vérifier"
+      },
+      "specialites": [
+        "Canard à l’orange",
+        "Filet mignon flambé au cognac",
+        "Ravioli de ris de veau truffé",
+        "Foie gras"
+      ],
+      "on_y_mange": "Cuisine complète, service au guéridon (Fodor’s)",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Mention Michelin Québec 2026 rapportée par une recherche web — à vérifier",
+      "statut": "à vérifier",
+      "sources_details": {
+        "site": "https://restaurantlecontinental.com/ (donné par Fodor’s, non ouvert : à vérifier)",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s ; Tripadvisor"
+      },
+      "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Chez Victor",
+      "note": "Bar à burgers (bœuf, canard confit, merguez, saumon, porc), frites mayo maison, poutine, bières locales. Gamme $$ (Fodor’s) / $$–$$$ (Tripadvisor).",
+      "adresse": "145, rue Saint-Jean, G1R 1N4",
+      "ville": "Québec (Saint-Jean-Baptiste)",
+      "lat": 46.8076704,
+      "lng": -71.2258336,
+      "site": "https://chezvictorburger.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s — à vérifier sur le site officiel",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Chez Victor », 145 rue Saint-Jean, G1R 1N4 (node 345886369) — point d’intérêt (restaurant), Saint-Jean-Baptiste",
+      "confirme": false,
+      "remarque": "⚠️ Adresse et téléphone de source secondaire (Fodor’s) — à vérifier sur le site officiel. Site chezvictorburger.com donné par Fodor’s, non ouvert : à vérifier. Gammes de prix divergentes entre Fodor’s ($$) et Tripadvisor ($$–$$$). Autres succursales, dont une dans le Vieux-Port (Fodor’s) — cette fiche vise Saint-Jean-Baptiste seulement.",
+      "categorie": "resto",
+      "horaire": "Fermé le dimanche (Fodor’s) ; autres heures à vérifier",
+      "reservation": {
+        "url": "",
+        "via": "à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "418 529-7702 (Fodor’s, à vérifier)",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s (fermé le dimanche) — autres heures à vérifier",
+      "type_cuisine": "Bar à burgers",
+      "prix": {
+        "gamme": "$$ (Fodor’s) ; $$–$$$ (Tripadvisor) — sources divergentes",
+        "plats": "à vérifier",
+        "source": "Fodor’s ; Tripadvisor — prix des plats à vérifier"
+      },
+      "specialites": [
+        "Burgers (bœuf, canard confit, merguez, saumon, porc)",
+        "Frites avec mayonnaise maison",
+        "Poutine",
+        "Tarte au sucre"
+      ],
+      "on_y_mange": "Burgers, frites, poutine ; bières locales (Fodor’s, Tripadvisor)",
+      "ambiance": "introuvable",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "à vérifier",
+      "sources_details": {
+        "site": "https://chezvictorburger.com/ (donné par Fodor’s, non ouvert : à vérifier)",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s ; Tripadvisor"
+      },
+      "bieres": {
+        "styles": "Bières locales (détail à vérifier)",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Fodor’s / Tripadvisor"
+      }
+    },
+    {
+      "nom": "Brasserie Générale (BG Brasserie Urbaine)",
+      "note": "Microbrasserie (2013), salon de dégustation et boutique à l’usine : IPA, lagers, bières expérimentales / brassins limités. Horaire NON CONFIRMÉ (sources contradictoires).",
+      "adresse": "400, rue du Platine, local 3, G2N 2G6 (code postal à vérifier : G2N 2E2 selon d’autres sources)",
+      "ville": "Québec (Charlesbourg)",
+      "lat": 46.891893,
+      "lng": -71.3172898,
+      "site": "https://brasseriegenerale.com/",
+      "source_adresse": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; Canada Beer Map ; Je bois local (G2N 2G6) — autres sources : G2N 2E2, code postal à vérifier",
+      "source_coords": "OpenStreetMap (Nominatim) : bâtiment industriel 400 rue du Platine, Parc industriel de Charlesbourg, G2N 2G6 (way 302805142) — pas de POI nommé ; concordant avec Esri ArcGIS World Geocoding : PointAddress « 400 Rue Du Platine, Quebec, Québec, G2N 2G6 » (score 100, Notre-Dame-des-Laurentides)",
+      "confirme": false,
+      "remarque": "⚠️ Adresse de sources secondaires (Canada Beer Map, Je bois local), pas confirmée sur le site officiel ; code postal G2N 2G6 vs G2N 2E2 à vérifier ; point géocodé sur l’adresse civique (bâtiment), sans POI nommé. Quartier selon le géocodeur : Charlesbourg (Parc industriel de Charlesbourg, Notre-Dame-des-Laurentides) — Jarvis indiquait « Limoilou / Charlesbourg ». L’ancien local du 1165, 18e Rue (Limoilou) est FERMÉ selon Mon Limoilou. Horaire, cuisine et prix à vérifier.",
+      "categorie": "microbrasserie",
+      "horaire": "NON CONFIRMÉ (sources contradictoires) — trouvermonchalet.ca : mer. 12 h – 17 h · jeu.–ven. 12 h – 21 h · sam. 12 h – 18 h · fermé dim.–mar. ; Restaurant Guru : horaire légèrement différent ; à confirmer au 418 841-4555",
+      "reservation": {
+        "url": "",
+        "via": "à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "418 841-4555",
+      "ferme_jusqua": "",
+      "source_horaire": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; trouvermonchalet.ca ; Restaurant Guru — horaire NON CONFIRMÉ (contradictoire)",
+      "type_cuisine": "Salon de dégustation (microbrasserie) — cuisine mentionnée par Tastet, non confirmée : à vérifier",
+      "prix": {
+        "bieres": "à vérifier",
+        "plats": "à vérifier",
+        "source": "Prix à vérifier"
+      },
+      "specialites": [],
+      "on_y_mange": "Cuisine mentionnée par Tastet, non confirmée — à vérifier",
+      "ambiance": "Salon de dégustation et boutique à l’usine (site officiel)",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Aucune trouvée",
+      "statut": "Ouvert à l’usine du 400, rue du Platine (à vérifier) ; ancien local 1165, 18e Rue FERMÉ (Mon Limoilou)",
+      "sources_details": {
+        "site": "https://brasseriegenerale.com/",
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel ; Canada Beer Map ; Je bois local ; Mon Limoilou ; Tastet (ancien) ; trouvermonchalet.ca ; Restaurant Guru"
+      },
+      "bieres": {
+        "styles": "IPA, lagers, bières expérimentales ou en brassins limités (site officiel)",
+        "phares": [
+          "S.I.R. Popov (stout impériale russe) — ancien, à vérifier",
+          "Afrikaner (pale ale) — ancien, à vérifier"
+        ],
+        "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel ; Tastet (ancien : 12 lignes de fût, à vérifier)"
       }
     }
   ]
