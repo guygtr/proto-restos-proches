@@ -2295,6 +2295,51 @@
         "source": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel ; Facebook ; Google Maps"
       },
       "bieres": "sans objet (restaurant)"
+    },
+    {
+      "nom": "Café du Marché",
+      "note": "Café-restaurant déjeuners et dîners à Saint-Romuald : menu du jour (poissons, pâtes, pizza, burgers), smoked meat, pavé de saumon. Prix à vérifier.",
+      "adresse": "2215, chemin du Fleuve, G6W 5P7",
+      "ville": "Lévis (Saint-Romuald)",
+      "lat": 46.7584972,
+      "lng": -71.2396007,
+      "site": "https://cafedumarche.ca/",
+      "source_adresse": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; Google Maps ; Arrêts Gourmands (adresse non tirée du site officiel)",
+      "source_coords": "OpenStreetMap (Nominatim) : point « Café du Marché », 2215 chemin du Fleuve, Saint-Romuald, G6W 5P7 (node 6231123707) — point d’intérêt (café) ; concordant avec Esri ArcGIS World Geocoding : POI « Cafe du Marche » (score 100, 2215 Ch Du Fleuve, G6W 5P7) et PointAddress (score 100)",
+      "confirme": true,
+      "remarque": "Adresse tirée de Google Maps et des Arrêts Gourmands (pas du site officiel), confirmée par deux géocodeurs (POI nommé). Prix, réservation, terrasse et statut à vérifier. Courriel info@cafedumarche.ca (Arrêts Gourmands) — ne pas écrire depuis le prototype.",
+      "categorie": "resto",
+      "horaire": "Mar.–dim. 7 h 30 – 14 h · fermé lun. · menu du jour mar.–ven. 11 h 30 – 14 h",
+      "reservation": {
+        "url": "",
+        "via": "à vérifier",
+        "non_confirme": true
+      },
+      "telephone": "418 839-2525",
+      "ferme_jusqua": "",
+      "source_horaire": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel",
+      "type_cuisine": "Café-restaurant — déjeuners et dîners ; menu du jour",
+      "prix": {
+        "plats": "à vérifier",
+        "source": "Prix à vérifier"
+      },
+      "specialites": [
+        "Sandwich au bœuf fumé façon smoked meat",
+        "Pavé de saumon",
+        "Menu du jour : poissons, pâtes, pizza, burgers"
+      ],
+      "on_y_mange": "Déjeuners et dîners ; menu du jour mar.–ven. 11 h 30 – 14 h (site officiel)",
+      "ambiance": "introuvable",
+      "terrasse": "à vérifier",
+      "accessibilite_stationnement": "Accessible aux personnes à mobilité réduite (Arrêts Gourmands) ; stationnement introuvable",
+      "distinctions": "Membre des Arrêts Gourmands",
+      "courriel": "info@cafedumarche.ca (Arrêts Gourmands)",
+      "statut": "à vérifier",
+      "sources_details": {
+        "site": "https://cafedumarche.ca/",
+        "source": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel ; Google Maps ; Arrêts Gourmands"
+      },
+      "bieres": "sans objet (restaurant)"
     }
   ]
 }

@@ -110,9 +110,9 @@ Testé à 1280×800, 768 px et 390×844 : aucun débordement horizontal, aucun t
 |---|---|
 | ![](screenshots/audit-2026-10-28-ordi.png) | ![](screenshots/audit-2026-10-28-cell.png) |
 
-## Ajout du 13 nov. 2026
+## Ajouts du 13 nov. 2026
 
-Demande de Guy (Restos et microbrasseries, via Jarvis) : Restaurant L'Intimiste (Vieux-Lévis). Total : 44 adresses. Adresse du site officiel (31, avenue Bégin) ; OpenStreetMap place le restaurant au 35, avenue Bégin — adresse du site retenue. Plusieurs plats sans prix affiché « à vérifier » ; terrasse et stationnement introuvables.
+Demandes de Guy (Restos et microbrasseries, via Jarvis) : Restaurant L'Intimiste (Vieux-Lévis) et Café du Marché (Saint-Romuald, Lévis). Total : 45 adresses. L'Intimiste : adresse du site officiel (31, avenue Bégin) ; OpenStreetMap place le restaurant au 35, avenue Bégin — adresse du site retenue. Plusieurs plats sans prix affiché « à vérifier » ; terrasse et stationnement introuvables. Café du Marché : adresse de Google Maps et des Arrêts Gourmands (pas du site officiel), confirmée par un point nommé OpenStreetMap et Esri ; prix, réservation, terrasse et statut « à vérifier ».
 
 ## Ajouts du 12 nov. 2026
 
