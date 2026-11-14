@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-12",
+  "mise_a_jour": "2026-11-13",
   "enrichi_le": "2026-10-18",
   "note_enrichissement": "Fiches enrichies à partir des sites officiels d'abord, puis Guide Michelin, La Presse, Le Soleil, Tastet, Tourisme Charlevoix, portneuf.ca, AMBQ. « non confirmé » = source secondaire ou contradiction; « introuvable » = aucune source trouvée. Blaxton Lebourgneuf exclu à la demande de Guy.",
   "restos": [
@@ -2245,6 +2245,56 @@
         ],
         "source": "Tournée du jeudi (Restos et microbrasseries, via Jarvis, 12 nov. 2026) ; site officiel ; Tastet (ancien : 12 lignes de fût, à vérifier)"
       }
+    },
+    {
+      "nom": "Restaurant L'Intimiste",
+      "note": "Français / cuisine du marché dans le Vieux-Lévis : tartares, ris de veau, cerf rouge, wagyu, huîtres. Entrées 7–24 $, plats 25–33 $ (certains sans prix). Cave de 350+ vins.",
+      "adresse": "31, avenue Bégin, G6V 4B8",
+      "ville": "Lévis (Vieux-Lévis)",
+      "lat": 46.807539503466,
+      "lng": -71.182538816325,
+      "site": "https://lintimiste.ca/",
+      "source_adresse": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel ; Google Maps",
+      "source_coords": "Esri ArcGIS World Geocoding : PointAddress « 31 Av Bégin, Levis, Québec, G6V 4B8 » (score 100) ; concordant avec OpenStreetMap (Nominatim) : point « L'intimiste » (node 5777729053, ~10 m), que OSM situe au 35 avenue Bégin, G6V 7R9, quartier Vieux-Lévis",
+      "confirme": true,
+      "remarque": "OSM place le restaurant au 35, avenue Bégin (G6V 7R9) ; le site officiel et Google Maps donnent 31, avenue Bégin, G6V 4B8 (adresse retenue). Plusieurs plats sans prix affiché — à vérifier. Terrasse et stationnement à vérifier.",
+      "categorie": "resto",
+      "horaire": "Mer. 17 h – 22 h · jeu.–ven. 11 h 30 – 14 h et 17 h – 22 h · sam. 17 h – 22 h · fermé dim.–mar.",
+      "reservation": {
+        "url": "https://booking.libroreserve.com/21748ac24c844a9/qc015066901681/seat",
+        "via": "Libro (lien de la page Facebook)"
+      },
+      "telephone": "418 838-2711",
+      "ferme_jusqua": "",
+      "source_horaire": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel",
+      "type_cuisine": "Restaurant français / cuisine du marché",
+      "prix": {
+        "entrees": "7–24 $ (menus site)",
+        "plats": "25–33 $ affichés ; plusieurs plats sans prix affiché — à vérifier",
+        "source": "Menus du site officiel"
+      },
+      "specialites": [
+        "Tartares",
+        "Ris de veau",
+        "Médaillon de cerf rouge",
+        "Carré d'agneau et queue de homard",
+        "Wagyu",
+        "Poisson selon l'arrivage",
+        "Huîtres"
+      ],
+      "on_y_mange": "Cuisine complète (midi jeu.–ven., soir mer.–sam.) ; commandes pour emporter par téléphone (418 838-2711)",
+      "ambiance": "Salon privé et lounge (site officiel)",
+      "terrasse": "introuvable",
+      "accessibilite_stationnement": "introuvable",
+      "distinctions": "Prix Carte d'Or pendant plusieurs années (site officiel) — carte de plus de 350 vins",
+      "statut": "Ouvert (horaire affiché sur le site officiel)",
+      "sources_details": {
+        "site": "https://lintimiste.ca/",
+        "reservation": "https://booking.libroreserve.com/21748ac24c844a9/qc015066901681/seat",
+        "avis": "4,8/5 sur 1 078 avis (Facebook)",
+        "source": "Demande de Guy (Restos et microbrasseries, via Jarvis, 13 nov. 2026) ; site officiel ; Facebook ; Google Maps"
+      },
+      "bieres": "sans objet (restaurant)"
     }
   ]
 }
